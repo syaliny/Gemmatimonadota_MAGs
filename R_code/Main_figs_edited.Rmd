@@ -1,0 +1,529 @@
+---
+title: "Main figs"
+author: "Sergio morales"
+date: "21/01/2022"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+
+All R code for Main Figures 
+
+
+```{r Fig1a}
+#load in data
+Gemms_ANI <- read.csv("PATH/Gems_cut_ani_results.csv",fill = TRUE, header = TRUE, sep = ",")
+
+
+#assign levels
+Gemms_ANI$Query.Sequence = factor(Gemms_ANI$Query.Sequence,
+                                  levels = unique(Gemms_ANI$Query.Sequence))
+
+Gemms_ANI$ANI.match
+
+Gemms_ANI_RESULTS <- Gemms_ANI[ -c(4:5) ]
+
+library(tidyr)
+Gemms_ANI_RESULTS<-spread(Gemms_ANI_RESULTS, Query.Sequence, ANI.match)
+rownames(Gemms_ANI_RESULTS) <- Gemms_ANI_RESULTS[,1]
+Gemms_ANI_matrix <- as.matrix(Gemms_ANI_RESULTS[,-1])
+
+
+
+library(pheatmap)
+pheatmap(Gemms_ANI_matrix)
+
+library(dplyr)
+library(reshape)
+best_bins <- read.csv("PATH/best_bins_base_data.csv",fill = TRUE, header = TRUE, sep = ",")
+
+mdata <- melt(best_bins, id=c("Bin_ID","ANI_Cluster"))
+Row_clusters<-mdata[ -c(3:4)]
+Row_clusters<-distinct(Row_clusters,Bin_ID,.keep_all= TRUE)
+rownames(Row_clusters) <- Row_clusters$Bin_ID
+Row_clusters <- Row_clusters[ -c(1) ]
+Row_clusters$ANI_Cluster<-as.character(Row_clusters$ANI_Cluster)
+names(Row_clusters)[names(Row_clusters) == "ANI_Cluster"] <- "mOTU"
+
+pheatmap(Gemms_ANI_matrix, annotation_row = Row_clusters,cluster_cols = T, cluster_rows = T)
+
+
+colourList <- c("1"="#000000", "2"="#E69F00", "3"="#56B4E9", "4"="#009E73", "5"="#F0E442", "6"="#0072B2", "7"="#D55E00","8"="#CC79A7")
+
+my_ANI_colour = list(
+  mOTU = c("1"="#000000", "2"="#E69F00", "3"="#56B4E9", "4"="#009E73", "5"="#F0E442", "6"="#0072B2", "7"="#D55E00", "8"="#CC79A7"))
+
+library(viridis)
+pheatmap(Gemms_ANI_matrix,
+         annotation_colors = my_ANI_colour,
+         color             = turbo(6),
+         legend_breaks = c(100,95, 90, 85,80, 75, 70),
+         annotation_row = Row_clusters, 
+         drop_levels = FALSE,
+         annotation_legend= TRUE,
+         annotation_names_row = TRUE,
+         fontsize = 10, 
+         fontsize_row = 6, 
+         fontsize_col = 6,
+         cellheight = 5,
+         cutree_rows = 6,
+         filename ="PATH/Fig1a.pdf")
+
+dev.off()
+
+```
+
+
+```{r Fig2}
+#load data
+library(ggforce)
+
+dodge <- position_dodge(width=0.5)  # move dots .01 to the left and right to avoid overlap
+
+best_bins$ANI_Cluster<-as.factor(best_bins$ANI_Cluster)
+
+
+
+Gemm_qual_plot<-ggplot(best_bins, aes(x=Completeness, y=Contamination, colour=ANI_Cluster, group=ANI_Cluster)) +
+  geom_point(aes(size=Bin_size),alpha = 0.5)+
+  scale_colour_manual(values=colourList, breaks=c("1","2","3", "4", "5", "6", "7", "8"), drop=F)+ 
+  stat_ellipse(aes(group = ANI_Cluster))+ 
+  labs(colour = "ANI Cluster", size = "Bin Size (Mbp)")+
+  theme_light()+
+  theme(axis.title.x = element_text(face="bold",size=16),
+        axis.text.x = element_text(angle=0, colour = "black", vjust=1, hjust = 0.5, size=16), 
+        axis.text.y = element_text(colour = "black", size=16),
+        axis.title.y = element_text(face="bold",size=16),
+        plot.title = element_text(size = 16),
+        legend.title =element_text(face="bold",size = 12),
+        legend.text = element_text(size = 12),
+        legend.position="right",
+        legend.key.size = unit(1, "cm"),
+        strip.text.x = element_text(size=16, face="bold"),
+        strip.text.y = element_text(size=16, face="bold"),
+        panel.background = element_blank(),
+        panel.border = element_rect(fill = NA, colour = "black"),
+        strip.background = element_rect(colour="black"))+
+  theme(legend.direction = "vertical", legend.box = "horizontal")+ 
+  guides(colour = guide_legend(override.aes = list(size=2, alpha = 0.5)))
+Gemm_qual_plot  
+
+library(cowplot)
+#Save the legend  
+legend <- get_legend(Gemm_qual_plot)
+
+#Remove the legend from Gemm_qual_plot
+Gemm_qual_plot <- Gemm_qual_plot + theme(legend.position="none")      
+
+
+
+library(ggridges)
+library(ggpubr)
+
+Gemm_binsize_ridge<-ggplot(best_bins, aes(x=Bin_size, y=ANI_Cluster, fill=ANI_Cluster))+
+  geom_density_ridges(jittered_points = TRUE,alpha = 0.5) +
+  scale_y_discrete(drop=FALSE)+
+  scale_fill_manual(values=colourList, breaks=c("1","2","3", "4", "5", "6", "7", "8"), drop=F)+ 
+  theme_light()+
+  theme(axis.title.x = element_text(face="bold",size=16),
+        axis.text.x = element_text(angle=0, colour = "black", vjust=1, hjust = 0.5, size=16), 
+        axis.text.y = element_text(colour = "black", size=16),
+        axis.title.y = element_text(face="bold",size=16),
+        plot.title = element_text(size = 16),
+        legend.title =element_text(face="bold",size = 16),
+        legend.text = element_text(size = 14),
+        legend.position="blank",
+        legend.key.size = unit(1, "cm"),
+        strip.text.x = element_text(size=16, face="bold"),
+        strip.text.y = element_text(size=16, face="bold"),
+        panel.background = element_blank(),
+        panel.border = element_rect(fill = NA, colour = "black"),
+        strip.background = element_rect(colour="black"))+
+  xlab("Bin Size (Mbp)") + ylab("mOTU")+ 
+  expand_limits(y= c(1, length(levels(best_bins$ANI_Cluster)) + 1))
+Gemm_binsize_ridge
+
+Gemm_bincont_ridge<-ggplot(best_bins, aes(x=Contamination, y=ANI_Cluster, fill=ANI_Cluster))+
+  geom_density_ridges(jittered_points = TRUE,alpha = 0.5) +
+  scale_y_discrete(drop=FALSE)+
+  scale_fill_manual(values=colourList, breaks=c("1","2","3", "4", "5", "6", "7", "8"), drop=F)+ 
+  theme_light()+
+  theme(axis.title.x = element_text(face="bold",size=16),
+        axis.text.x = element_text(angle=0, colour = "black", vjust=1, hjust = 0.5, size=16), 
+        axis.text.y = element_text(colour = "black", size=16),
+        axis.title.y = element_text(face="bold",size=16),
+        plot.title = element_text(size = 16),
+        legend.title =element_text(face="bold",size = 12),
+        legend.text = element_text(size = 12),
+        legend.position="blank",
+        legend.key.size = unit(1, "cm"),
+        strip.text.x = element_text(size=16, face="bold"),
+        strip.text.y = element_text(size=16, face="bold"),
+        panel.background = element_blank(),
+        panel.border = element_rect(fill = NA, colour = "black"),
+        strip.background = element_rect(colour="black"))+
+  xlab("Contamination") + ylab("mOTU")+ 
+  expand_limits(y= c(1, length(levels(best_bins$ANI_Cluster)) + 1))+
+  rotate()
+Gemm_bincont_ridge
+
+Gemm_bincomp_ridge<-ggplot(best_bins, aes(x=Completeness, y=ANI_Cluster, fill=ANI_Cluster))+
+  geom_density_ridges(jittered_points = TRUE,alpha = 0.5) +
+  scale_y_discrete(drop=FALSE)+
+  scale_fill_manual(values=colourList, breaks=c("1","2","3", "4", "5", "6", "7", "8"), drop=F)+ 
+  theme_light()+
+  theme(axis.title.x = element_text(face="bold",size=16),
+        axis.text.x = element_text(angle=0, colour = "black", vjust=1, hjust = 0.5, size=16), 
+        axis.text.y = element_text(colour = "black", size=16),
+        axis.title.y = element_text(face="bold",size=16),
+        plot.title = element_text(size = 16),
+        legend.title =element_text(face="bold",size = 16),
+        legend.text = element_text(size = 14),
+        legend.position="blank",
+        legend.key.size = unit(1, "cm"),
+        strip.text.x = element_text(size=16, face="bold"),
+        strip.text.y = element_text(size=16, face="bold"),
+        panel.background = element_blank(),
+        panel.border = element_rect(fill = NA, colour = "black"),
+        strip.background = element_rect(colour="black"))+
+  xlab("Completeness") + ylab("mOTU")+ 
+  expand_limits(y= c(1, length(levels(best_bins$ANI_Cluster)) + 1))
+Gemm_bincomp_ridge
+
+blankPlot <- ggplot()+geom_blank(aes(1,1))+
+  theme(plot.background = element_blank(), 
+   panel.grid.major = element_blank(),
+   panel.grid.minor = element_blank(), 
+   panel.border = element_blank(),
+   panel.background = element_blank(),
+   axis.title.x = element_blank(),
+   axis.title.y = element_blank(),
+   axis.text.x = element_blank(), 
+   axis.text.y = element_blank(),
+   axis.ticks = element_blank()
+     )
+pdf("PATH/Fig2.pdf", width = 12, height = 10) # Open a new pdf file
+
+
+library(gridExtra)
+grid.arrange(Gemm_bincomp_ridge, legend, Gemm_qual_plot, Gemm_bincont_ridge, 
+        ncol=2, nrow=2, widths=c(4, 1.4), heights=c(2, 4))
+
+dev.off()
+
+#size completeness correlation
+
+spman_size_comp<-cor.test(best_bins$Bin_size, best_bins$Completeness, method = c("spearman"))
+spman_size_comp
+
+```
+
+```{r Fig3 function heatmap}
+trimmed_bin <- best_bins[ -c(6,9:11, 47:48) ]
+
+functions_bin<- trimmed_bin[ -c(2:8)]
+
+
+rownames(functions_bin) <- functions_bin$Bin_ID
+functions_bin<-functions_bin[, colSums(functions_bin != 0) > 0]
+
+abscence_presence <- as.matrix(functions_bin[,-1])
+rownames(abscence_presence) <- functions_bin[,1]
+abscence_presence[is.na(abscence_presence)] <- 0
+abscence_presence[which(abscence_presence!=0)] <- 1
+
+a_p_matrix <- mapply(abscence_presence, FUN=as.numeric)
+a_p_matrix <- matrix(data=a_p_matrix, ncol=length(colnames(abscence_presence)), nrow=length(row.names(abscence_presence)))
+row.names(a_p_matrix) <- row.names(abscence_presence)
+colnames(a_p_matrix) <- colnames(abscence_presence)
+
+library(gplots)
+heatmap.2(a_p_matrix, col = c("#FFE986","#FF736E"), main = "Absence/Presence of genes", trace="none", labRow=FALSE)
+dev.off()
+
+pheatmap(a_p_matrix)
+
+library(reshape)
+
+mdata <- melt(best_bins, id=c("Bin_ID","ANI_Cluster"))
+Row_clusters<-mdata[ -c(3:4)]
+Row_clusters<-distinct(Row_clusters,Bin_ID,.keep_all= TRUE)
+rownames(Row_clusters) <- Row_clusters$Bin_ID
+Row_clusters <- Row_clusters[ -c(1) ]
+Row_clusters$ANI_Cluster<-as.character(Row_clusters$ANI_Cluster)
+colnames(Row_clusters)[1] <- "mOTU"
+Gene_categories <- read.csv("PATH/gene_categories.csv",fill = TRUE, header = TRUE, sep = ",")
+Gene_categories<-distinct(Gene_categories,Gene, .keep_all= TRUE)
+Gene_categories <- Gene_categories[ -c(1:3,6) ]
+rownames(Gene_categories) <- Gene_categories$Gene
+present_genes<-c('sqr','sdha', 'all_hyd','cyc2', 'norb', 'napa', 'nifh', 'nirk', 'nosz', 'nrfa','phod','phnw')
+Gene_categories_sub<-filter(Gene_categories, Gene %in% present_genes)
+Gene_categories_sub <- Gene_categories_sub[ -c(2) ]
+
+
+Table_S2<-merge(data.frame(a_p_matrix), Row_clusters, by = 0)                                    # Merge data according to row names
+colnames(Table_S2)[14]<-"mOTU"
+Table_S2$mOTU<-as.factor(Table_S2$mOTU)
+Table_S2_final <- Table_S2 %>% group_by(mOTU) %>% summarise(across(everything(), list(mean)))
+Table_S2_final <- Table_S2_final[ -c(2) ]
+#save table with data
+write.csv(Table_S2_final, "PATH/Table S2.csv", row.names = T)
+
+
+pheatmap(a_p_matrix, annotation_row = Row_clusters, annotation_col = Gene_categories_sub)
+
+
+my_colour = list(
+  mOTU = c("1"="#000000", "2"="#E69F00", "3"="#56B4E9", "4"="#009E73", "5"="#F0E442", "6"="#0072B2", "7"="#D55E00", "8"="#CC79A7"),
+  Category = c("Alternative e donor"="#CC79A7", "Nitrogen cycle"="yellow", "Phosphate Metabolism"="orange", "Phosphonate metabolism"="sky blue", "Respiration"="red", "Sulfur cycle"="blue", "Trace gas metabolism"="black"))
+
+
+pheatmap(a_p_matrix,
+         color=c("red", "blue"),
+              annotation_colors = my_colour,
+              annotation_row = Row_clusters, 
+              annotation_col = Gene_categories_sub,
+              drop_levels = FALSE,
+              annotation_legend= TRUE,
+              annotation_names_row = TRUE,
+         legend_breaks = c(1, 0),
+              fontsize = 10, 
+              fontsize_row = 6, 
+              fontsize_col = 8,
+              cellheight = 5,
+         filename ="PATH/Fig3.pdf")
+
+
+dev.off()
+```
+
+```{r Fig4 enichm vs ORF plot}
+samdata.df = read.csv("PATH/Binsam_data.csv", row.names = 1)
+
+#assign variables
+ORF = samdata.df$ORFm
+enrichm = samdata.df$enrichm
+mOTU = samdata.df$mOTU
+Bin_size = samdata.df$Bin_Size.Mbp.
+Completeness = samdata.df$Completeness
+Contamination = samdata.df$Contamination
+binaverage = samdata.df$Average_ratio
+
+#average ratio of ORF:enrichm for the reference line in graph
+average = mean(ORF/enrichm)
+
+#plot as a scatterplot
+samdata.df$mOTU<-as.factor(samdata.df$mOTU)
+
+
+
+fig4<-ggplot(samdata.df, aes(enrichm, ORF, color = mOTU, size = Bin_size)) + 
+  geom_point(aes())+ 
+  geom_abline(intercept = 0, slope =  average)+ 
+  scale_colour_manual(values=colourList, breaks=c("1","2","3", "4", "5", "6", "7", "8"), drop=F)+
+  labs(colour = "mOTU", size = "Bin Size (Mbp)")+
+  theme_light()+
+  theme(axis.title.x = element_text(face="bold",size=12),
+        axis.text.x = element_text(angle=0, colour = "black", vjust=1, hjust = 0.5, size=10), 
+        axis.text.y = element_text(colour = "black", size=10),
+        axis.title.y = element_text(face="bold",size=12),
+        plot.title = element_text(size = 12),
+        legend.title =element_text(face="bold",size = 12),
+        legend.text = element_text(size = 10),
+        legend.position="right",
+        legend.key.size = unit(1, "cm"),
+        panel.background = element_blank(),
+        panel.border = element_rect(fill = NA, colour = "black"))+
+  guides(colour = guide_legend(override.aes = list(size=3)))+
+  xlab("Number of single copy genes based on EnrichM") + 
+  ylab("Number of putative open reading frames based on OrfM")
+fig4
+ggsave("PATH/Fig4.pdf",width=8,height=6,units ="in", device="pdf")
+
+
+```
+
+```{r Fig5 mOTU abundance}
+Bin_hits = read.csv("PATH/Diamond_bin.csv",fill = TRUE, header = TRUE, sep = ",")
+bin_metadata = read.csv("PATH/bin_metadata.csv",fill = TRUE, header = TRUE, sep = ",")
+sample_metadata = read.csv("PATH/sam_data.csv",fill = TRUE, header = TRUE, sep = ",")
+
+merged_hits_df<-left_join(Bin_hits, bin_metadata, by="Bin")
+Bin_hits_df <- gather(merged_hits_df,Sample,Hits,Sample.1:Sample.50, factor_key=TRUE)
+
+mOTU_hits_df <- Bin_hits_df[ -c(1,3:8) ]
+mOTU_hits_df$Hits <- as.numeric(mOTU_hits_df$Hits)
+levels(mOTU_hits_df$Sample) <- sub("Sample.", "Sample ", levels(mOTU_hits_df$Sample))
+
+library(reshape2)
+mOTU_hits <- dcast(mOTU_hits_df, mOTU ~ Sample, value.var="Hits",fun.aggregate = sum)
+library(data.table)
+t_mOTU_hits <- transpose(mOTU_hits)
+colnames(t_mOTU_hits) <- rownames(mOTU_hits)
+rownames(t_mOTU_hits) <- colnames(mOTU_hits)
+colnames(t_mOTU_hits) <- t_mOTU_hits[1,]
+t_mOTU_hits <- t_mOTU_hits[-1, ] 
+
+#read in otu table and metadata
+bins_hits_sample = t_mOTU_hits
+sample_data = read.csv("PATH/sam_data.csv", row.names = 1)
+
+library(phyloseq)
+#fix column names
+#colnames(bins_hits_sample) = gsub("X", "", colnames(bins_hits_sample), fixed = TRUE)
+
+#assign variables
+mOTU = otu_table(bins_hits_sample, taxa_are_rows = F)
+SAM = sample_data(sample_data)
+
+#check names
+taxa_names(mOTU)
+sample_names(SAM)
+
+#create phyloseq object
+phyloseq = phyloseq(mOTU,
+                    SAM)
+# melt phyloseq object back into dataframe
+bin_abud_df = psmelt(phyloseq)
+
+#assign levels for days to ensure correct order
+
+Days_levels <- c("9", "15", "21","27", "33", "42", "51")
+#set the levels as a variable
+days <- factor(bin_abud_df$Day, levels = Days_levels)
+
+#assign variables
+Abun = bin_abud_df$Abundance
+Treatment = bin_abud_df$Treatment
+mOTU = bin_abud_df$OTU
+
+#plot - stacked barplot facet by treatment
+ggplot(bin_abud_df, aes(x= days, y=Abun, group = mOTU, fill=mOTU)) + 
+  facet_wrap(~ Treatment) + 
+  geom_bar(position = "fill", stat = "identity") + 
+  ylab("Relative Abundance") + 
+  xlab("Day") + 
+  scale_fill_manual(values=colourList, breaks=c("1","2","3", "4", "5", "6", "7", "8"), drop=F)+
+  theme_light()+
+  theme(axis.title.x = element_text(face="bold",size=12),
+        axis.text.x = element_text(angle=0, colour = "black", vjust=1, hjust = 0.5, size=10), 
+        axis.text.y = element_text(colour = "black", size=10),
+        axis.title.y = element_text(face="bold",size=12),
+        plot.title = element_text(size = 12),
+        legend.title =element_text(face="bold",size = 12),
+        legend.text = element_text(size = 10),
+        legend.position="right",
+        legend.key.size = unit(.5, "cm"),
+        panel.background = element_blank(),
+        strip.text.x = element_text(size=12, color="black"),
+        panel.border = element_rect(fill = NA, colour = "black"))+
+  scale_y_continuous(labels = scales::percent)
+
+ggsave("PATH/Fig5.pdf",width=6,height=4,units ="in", device="pdf")
+```
+
+```{r fig 6}
+Bin_hits = read.csv("PATH/Gemms_global_reads.csv",fill = TRUE, header = TRUE, sep = ",")
+bin_metadata = read.csv("PATH/bin_metadata.csv",fill = TRUE, header = TRUE, sep = ",")
+soil_global_meta = read.csv("PATH/soil_global_meta_edited.csv",fill = TRUE, header = TRUE, sep = ",")
+rownames(soil_global_meta) <- soil_global_meta$Sample
+
+
+#library(dplyr)
+Gemm_reads<-Bin_hits %>%
+  filter(Bin %in% bin_metadata$Bin)
+
+colnames(Gemm_reads) <- gsub("X", "", colnames(Gemm_reads))
+
+
+merged_binhits_df<-left_join(Gemm_reads, bin_metadata, by="Bin")
+Gemm_reads_df <- gather(merged_binhits_df,Sample,Hits,c(2:35), factor_key=TRUE)
+
+mOTU_hits_MG_df <- Gemm_reads_df[ -c(3:8) ]
+mOTU_hits_MG_df$Hits <- as.numeric(mOTU_hits_MG_df$Hits)
+#levels(mOTU_hits_MG_df$Sample) <- sub("Sample.", "Sample ", levels(mOTU_hits_MG_df$Sample))
+
+library(reshape2)
+mOTU_hits_MG <- dcast(mOTU_hits_MG_df, mOTU ~ Sample, value.var="Hits",fun.aggregate = sum)
+#fix column names
+#colnames(mOTU_hits_MG) = gsub("Sample.", "", colnames(mOTU_hits_MG), fixed = TRUE)
+
+library(data.table)
+t_mOTU_hits_MG <- transpose(mOTU_hits_MG)
+colnames(t_mOTU_hits_MG) <- rownames(mOTU_hits_MG)
+rownames(t_mOTU_hits_MG) <- colnames(mOTU_hits_MG)
+colnames(t_mOTU_hits_MG) <- t_mOTU_hits_MG[1,]
+t_mOTU_hits_MG <- t_mOTU_hits_MG[-1, ] 
+
+t_mOTU_hits_MG_sum<-t_mOTU_hits_MG %>%
+  mutate(Total = rowSums(.))
+
+
+#read in otu table and metadata
+bins_hits_sample = t_mOTU_hits_MG_sum
+
+
+library(phyloseq)
+
+
+
+
+#assign variables
+mOTU = otu_table(bins_hits_sample, taxa_are_rows = F)
+SAM = sample_data(soil_global_meta)
+
+#check names
+taxa_names(mOTU)
+sample_names(SAM)
+
+#create phyloseq object
+Gemms_bin_ps = phyloseq(mOTU,
+                    SAM)
+# melt phyloseq object back into dataframe
+bin_abunbyMG_df = psmelt(Gemms_bin_ps)
+
+Habitat_ordered <- bin_abunbyMG_df                              # Replicate data
+bin_abunbyMG_df$Biomes <- factor(bin_abunbyMG_df$Biomes,      # Reordering group factor levels
+                         levels = c("Grassland", "Boreal forest", "Tropical rainforest"))
+
+
+
+
+colourList <- c("1"="#000000", "2"="#E69F00", "3"="#56B4E9", "4"="#009E73", "5"="#F0E442", "6"="#0072B2", "7"="#D55E00","8"="#CC79A7", "Total"="#999999")
+
+library(scales)
+
+ggplot(bin_abunbyMG_df, aes(x= OTU, y=Abundance, group = OTU, fill=OTU)) + 
+  facet_wrap(~Biomes , scales="free",
+             labeller = labeller(Habitat = label_wrap_gen(width = 20, multi_line=TRUE)))+ 
+  geom_boxplot() + 
+  geom_jitter(width = 0.2)+
+  ylab("Mapped reads") + 
+  xlab("mOTU") + 
+  scale_fill_manual(values=colourList, breaks=c("1","2","3", "4", "5", "6", "7", "8", "Total"), drop=F)+
+  theme_light()+
+  theme(axis.title.x = element_text(face="bold",size=12),
+        axis.text.x = element_text(angle=0, colour = "black", vjust=1, hjust = 0.5, size=10), 
+        axis.text.y = element_text(colour = "black", size=10),
+        axis.title.y = element_text(face="bold",size=12),
+        plot.title = element_text(size = 12),
+        legend.title =element_text(face="bold",size = 12),
+        legend.text = element_text(size = 10),
+        legend.position="right",
+        legend.key.size = unit(1, "cm"),
+        panel.background = element_blank(),
+        strip.text.x = element_text(size=12, color="black"),
+        panel.border = element_rect(fill = NA, colour = "black"))+
+  scale_y_continuous(trans="log2",labels = trans_format("log2", math_format(2^.x)))
+
+
+
+
+ggsave("PATH/Fig6.pdf",width=8,height=6,units ="in", device="pdf")
+
+```
+
+
+
+

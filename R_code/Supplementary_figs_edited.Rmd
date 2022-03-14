@@ -1,0 +1,408 @@
+---
+title: "Supplementary figs"
+author: "Sergio morales"
+date: "21/01/2022"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+
+All R code for supplementary figures/files 
+
+
+```{r FigS1}
+library(ggplot2)
+library(viridis)
+library(ggExtra)
+
+#import data from Table S1 with all bins 
+All_bins <- read.csv("PATH/all_bin_base_data.csv",fill = TRUE, header = TRUE, sep = ",")
+
+#making baseplot
+Baseplot <- ggplot(All_bins, aes(x=Completeness, y=Contamination, col = Bin_size)) + 
+  geom_point(aes(size=Percent_Community)) + 
+  scale_color_viridis(option = "turbo")+
+  theme_light()+
+  theme(axis.title.x = element_text(face="bold",size=12),
+        axis.text.x = element_text(angle=0, colour = "black", vjust=1, hjust = 0.5, size=10), 
+        axis.text.y = element_text(colour = "black", size=10),
+        axis.title.y = element_text(face="bold",size=12),
+        plot.title = element_text(size = 10),
+        legend.title =element_text(face="bold",size = 12),
+        legend.text = element_text(size = 10),
+        legend.position="left",
+        legend.key.size = unit(1, "cm"),
+        strip.text.x = element_text(size=10, face="bold"),
+        strip.text.y = element_text(size=10, face="bold"),
+        panel.background = element_blank(),
+        panel.border = element_rect(fill = NA, colour = "black"),
+        strip.background = element_rect(colour="black"))+
+  xlab("Completeness") + 
+  ylab("Contamination")+
+  labs(colour = "Bin Size (Mbp)", size = "Percent of Community")
+Baseplot
+
+pdf("PATH/FigS1.pdf",width=7,height=5)
+
+#add marginal density plots
+density_plot <- ggMarginal(Baseplot, type = "histogram", binwidth=1)
+
+#view
+density_plot
+
+dev.off()
+
+
+
+mean(All_bins$Contamination)
+range(All_bins$Contamination)
+mean(All_bins$Completeness)
+range(All_bins$Completeness)
+
+```
+
+
+```{r FigS2}
+
+#load in data
+
+Gemms_ref_ANI <- read.csv("PATH/Gems_cutRef_ani_results.csv",fill = TRUE, header = TRUE, sep = ",")
+
+
+#assign levels
+Gemms_ref_ANI$Query.Sequence = factor(Gemms_ref_ANI$Query.Sequence,
+                                  levels = unique(Gemms_ref_ANI$Query.Sequence))
+
+Gemms_ref_ANI$ANI.match
+
+Gemms_ref_ANI_RESULTS <- Gemms_ref_ANI[ -c(4:5) ]
+
+library(tidyr)
+
+Gemms_ref_ANI_RESULTS<-spread(Gemms_ref_ANI_RESULTS, Query.Sequence, ANI.match)
+rownames(Gemms_ref_ANI_RESULTS) <- Gemms_ref_ANI_RESULTS[,1]
+Gemms_ref_ANI_matrix <- as.matrix(Gemms_ref_ANI_RESULTS[,-1])
+
+library(pheatmap)
+pheatmap(Gemms_ref_ANI_matrix)
+
+pheatmap(Gemms_ref_ANI_matrix,cluster_cols = T, cluster_rows = T)
+
+
+pheatmap(Gemms_ref_ANI_matrix,
+         color             = turbo(6),
+         legend_breaks = c(100,95, 90, 85,80, 75, 70),
+         drop_levels = FALSE,
+         annotation_legend= TRUE,
+         annotation_names_row = TRUE,
+         fontsize = 10, 
+         fontsize_row = 6, 
+         fontsize_col = 6,
+         cellheight = 5,
+         cutree_rows = 7,
+         filename ="PATH/FigS2.pdf")
+dev.off()
+```
+
+
+
+```{r FigS3 variance}
+#import data
+best_bins <- read.csv("PATH/best_bins_base_data.csv",fill = TRUE, header = TRUE, sep = ",")
+
+library(dplyr)
+
+best_bins$ANI_Cluster<-as.factor(best_bins$ANI_Cluster)
+
+Variance<-group_by(best_bins, ANI_Cluster) %>% 
+      summarise(GroupVariance=var(rep(Contamination,Completeness)))
+
+colourList <- c("1"="#000000", "2"="#E69F00", "3"="#56B4E9", "4"="#009E73", "5"="#F0E442", "6"="#0072B2", "7"="#D55E00","8"="#CC79A7")
+
+ggplot(Variance, aes(ANI_Cluster, GroupVariance, fill=ANI_Cluster))+
+  geom_bar(stat="identity")+
+  scale_fill_manual(values=colourList, breaks=c("1","2","3", "4", "5", "6", "7", "8"), drop=F)+ 
+theme_light()+
+  theme(axis.title.x = element_text(face="bold",size=16),
+        axis.text.x = element_text(angle=0, colour = "black", vjust=1, hjust = 0.5, size=16), 
+        axis.text.y = element_text(colour = "black", size=16),
+        axis.title.y = element_text(face="bold",size=16),
+        plot.title = element_text(size = 16),
+        legend.title =element_text(face="bold",size = 16),
+        legend.text = element_text(size = 14),
+        legend.position="blank",
+        legend.key.size = unit(1, "cm"),
+        strip.text.x = element_text(size=16, face="bold"),
+        strip.text.y = element_text(size=16, face="bold"),
+        panel.background = element_blank(),
+        panel.border = element_rect(fill = NA, colour = "black"),
+        strip.background = element_rect(colour="black"))+
+  xlab("mOTU") + ylab("Quality Variance")
+
+ggsave("PATH/FigS3.pdf",width=6,height=4,units ="in", device="pdf")
+
+```
+
+
+```{r FigS4 pathway completeness}
+
+##Make new phyloseq
+
+otutable.df = read.csv("PATH/CutPhyloseq_Path.csv", row.names = 1)
+colnames(otutable.df) = gsub("X", "", colnames(otutable.df))
+taxtable.df = read.csv("PATH/Tax_table_Cut.csv",row.names = 1)
+samdata.df = read.csv("PATH/Binsam_data.csv", row.names = 1)
+
+
+
+
+
+library(phyloseq)
+OTU = otu_table(otutable.df, taxa_are_rows = T)
+SAM = sample_data(samdata.df)
+TAX = tax_table(as.matrix(taxtable.df))
+taxa_names(OTU)
+
+Path_phyloseq = phyloseq(OTU,
+                         TAX,
+                         SAM)
+
+Path_phyloseq_v0 = Path_phyloseq
+
+#Count of total percentage completeness for categories
+
+library("bookdown")
+library(plyr)
+
+#phyloseq to dataframe
+Pathways_df = psmelt(Path_phyloseq)
+
+library(rstatix)
+KW_modules<-Pathways_df%>% 
+  group_by(OTU) %>% 
+  kruskal_test(Abundance ~ mOTU) %>% 
+  adjust_pvalue(method="fdr") %>% 
+  filter(p.adj < 0.05)
+
+
+
+# make a list of the significant genera
+only_sig_modules<-Pathways_df %>% 
+  filter(OTU %in% KW_modules$OTU) 
+
+write.csv(only_sig_modules, "PATH/only_sig_modules.csv", row.names = T)
+#manually modify Kegg.Category for blank ones and re import
+only_sig_modules_rev <- read.csv("PATH/only_sig_modules_rev.csv",fill = TRUE, header = TRUE, sep = ",")
+
+only_sig_modules_rev$mOTU<-as.factor(only_sig_modules_rev$mOTU)
+
+# plot
+library(ggpubr)
+ggplot(only_sig_modules_rev, aes(x=mOTU, y=Abundance, group=mOTU, fill=mOTU)) + 
+  geom_boxplot() + 
+  facet_wrap(~New_category,
+             labeller = labeller(New_category = label_wrap_gen(width = 20, multi_line=TRUE)),
+             ncol = 6, 
+             scales="free_y")+
+  stat_compare_means(method = "kruskal.test", paired = FALSE, label.y = 100, label.x = 2, label = "p.format", size=2)+
+  scale_fill_manual(values=colourList, breaks=c("1","2","3", "4", "5", "6", "7", "8"), drop=F)+
+theme_light()+
+  xlab("mOTU") + ylab("Average Pathway Completeness")+
+  theme(strip.text.x = element_text(margin = margin(.1, 0, .1, 0, "cm")))+
+  theme(axis.title.x = element_text(face="bold",size=10),
+        axis.text.x = element_text(colour = "black", size=8), 
+        axis.text.y = element_text(colour = "black", size=8),
+        axis.title.y = element_text(face="bold",size=10),
+        legend.title =element_text(face="bold",size = 10),
+        legend.text = element_text(size = 8),
+        legend.position="blank",
+        legend.key.size = unit(1, "cm"),
+        strip.text = element_text(size=7, face="bold", colour="black", margin = margin()),
+        panel.background = element_blank(),
+        panel.border = element_rect(fill = NA, colour = "black"),
+        strip.background = element_rect(colour="grey"))+
+  scale_y_continuous(limits = c(0, 115), breaks = seq(0, 115, by = 20))
+
+
+ggsave("PATH/FigS4.pdf",width=9,height=12,units ="in", device="pdf")
+
+```
+
+```{r fig S5}
+
+bin_metadata = read.csv("PATH/bin_metadata.csv",fill = TRUE, header = TRUE, sep = ",")
+
+bin_metadata$mOTU<-as.factor(bin_metadata$mOTU)
+
+library(dplyr)
+library(ggplot2)
+enrichm_summary <- bin_metadata %>% group_by(mOTU) %>% summarise(mean=mean(enrichm), sd=sd(enrichm))
+
+
+ggplot(bin_metadata, aes(mOTU, enrichm, fill=mOTU))+
+  geom_boxplot()+
+  scale_fill_manual(values=colourList, breaks=c("1","2","3", "4", "5", "6", "7", "8"), drop=F)+ 
+  theme_light()+
+  theme(axis.title.x = element_text(face="bold",size=16),
+        axis.text.x = element_text(angle=0, colour = "black", vjust=1, hjust = 0.5, size=16), 
+        axis.text.y = element_text(colour = "black", size=16),
+        axis.title.y = element_text(face="bold",size=16),
+        plot.title = element_text(size = 16),
+        legend.title =element_text(face="bold",size = 16),
+        legend.text = element_text(size = 14),
+        legend.position="blank",
+        legend.key.size = unit(1, "cm"),
+        strip.text.x = element_text(size=16, face="bold"),
+        strip.text.y = element_text(size=16, face="bold"),
+        panel.background = element_blank(),
+        panel.border = element_rect(fill = NA, colour = "black"),
+        strip.background = element_rect(colour="black"))+
+  xlab("mOTU") + ylab("enrichM detected genes")+
+  stat_compare_means(method = "kruskal.test", paired = FALSE, label.y = 4500, label.x = 2, size=5)
+
+ggsave("PATH/FigS5.pdf",width=6,height=4,units ="in", device="pdf")
+
+```
+
+
+```{r fig S6}
+average = mean(bin_metadata$ORFm/bin_metadata$Bin_Size.Mbp.)
+
+
+ggplot(bin_metadata, aes(Bin_Size.Mbp., ORFm, color = mOTU)) + 
+  geom_point(size=4)+ 
+  geom_abline(intercept = 0, slope =  average)+ 
+  scale_colour_manual(values=colourList, breaks=c("1","2","3", "4", "5", "6", "7", "8"), drop=F)+
+  labs(colour = "mOTU")+
+  theme_light()+
+  theme(axis.title.x = element_text(face="bold",size=12),
+        axis.text.x = element_text(angle=0, colour = "black", vjust=1, hjust = 0.5, size=10), 
+        axis.text.y = element_text(colour = "black", size=10),
+        axis.title.y = element_text(face="bold",size=12),
+        plot.title = element_text(size = 12),
+        legend.title =element_text(face="bold",size = 12),
+        legend.text = element_text(size = 10),
+        legend.position="right",
+        legend.key.size = unit(1, "cm"),
+        panel.background = element_blank(),
+        panel.border = element_rect(fill = NA, colour = "black"))+
+  guides(colour = guide_legend(override.aes = list(size=4)))+
+  xlab("Bin Size (Mbp)") + 
+  ylab("Number of putative open reading frames based on OrfM")
+ggsave("PATH/FigS6.pdf",width=6,height=4,units ="in", device="pdf")
+
+```
+
+
+
+
+```{r fig S6-7}
+Bin_hits = read.csv("PATH/Diamond_bin.csv",fill = TRUE, header = TRUE, sep = ",")
+bin_metadata = read.csv("PATH/bin_metadata.csv",fill = TRUE, header = TRUE, sep = ",")
+sample_metadata = read.csv("PATH/sam_data.csv",fill = TRUE, header = TRUE, sep = ",")
+
+merged_hits_df<-left_join(Bin_hits, bin_metadata, by="Bin")
+Bin_hits_df <- gather(merged_hits_df,Sample,Hits,Sample.1:Sample.50, factor_key=TRUE)
+
+mOTU_hits_df <- Bin_hits_df[ -c(1,3:8) ]
+mOTU_hits_df$Hits <- as.numeric(mOTU_hits_df$Hits)
+levels(mOTU_hits_df$Sample) <- sub("Sample.", "Sample ", levels(mOTU_hits_df$Sample))
+
+library(reshape2)
+mOTU_hits <- dcast(mOTU_hits_df, mOTU ~ Sample, value.var="Hits",fun.aggregate = sum)
+library(data.table)
+t_mOTU_hits <- transpose(mOTU_hits)
+colnames(t_mOTU_hits) <- rownames(mOTU_hits)
+rownames(t_mOTU_hits) <- colnames(mOTU_hits)
+colnames(t_mOTU_hits) <- t_mOTU_hits[1,]
+t_mOTU_hits <- t_mOTU_hits[-1, ] 
+
+#read in otu table and metadata
+bins_hits_sample = t_mOTU_hits
+sample_data = read.csv("PATH/sam_data.csv", row.names = 1)
+
+
+#assign variables
+mOTU = otu_table(bins_hits_sample, taxa_are_rows = F)
+SAM = sample_data(sample_data)
+
+#check names
+taxa_names(mOTU)
+sample_names(SAM)
+
+#create phyloseq object
+phyloseq = phyloseq(mOTU,
+                    SAM)
+# melt phyloseq object back into dataframe
+bin_abud_df = psmelt(phyloseq)
+
+#assign levels for days to ensure correct order
+
+Days_levels <- c("9", "15", "21","27", "33", "42", "51")
+#set the levels as a variable
+days <- factor(bin_abud_df$Day, levels = Days_levels)
+
+#assign variables
+Abun = bin_abud_df$Abundance
+Treatment = bin_abud_df$Treatment
+mOTU = bin_abud_df$OTU
+
+#Absolute abundance line graphs
+
+ggplot(bin_abud_df, aes(x = days, y=Abun, group = mOTU, colour = mOTU)) + 
+  facet_wrap(~ Treatment) + 
+  geom_line(size=1) + 
+  ylab("Number of mapped reads") + 
+  xlab("Day") + 
+  scale_colour_manual(values=colourList, breaks=c("1","2","3", "4", "5", "6", "7", "8"), drop=F)+
+  theme_light()+
+  theme(axis.title.x = element_text(face="bold",size=12),
+        axis.text.x = element_text(angle=0, colour = "black", vjust=1, hjust = 0.5, size=10), 
+        axis.text.y = element_text(colour = "black", size=10),
+        axis.title.y = element_text(face="bold",size=12),
+        plot.title = element_text(size = 12),
+        legend.title =element_text(face="bold",size = 12),
+        legend.text = element_text(size = 10),
+        legend.position="right",
+        legend.key.size = unit(.5, "cm"),
+        panel.background = element_blank(),
+        strip.text.x = element_text(size=12, color="black"),
+        panel.border = element_rect(fill = NA, colour = "black"))+
+  guides(colour = guide_legend(override.aes = list(size=3)))
+
+ggsave("PATH/FigS6.pdf",width=6,height=4,units ="in", device="pdf")
+
+
+
+##log2 Absolute abundance line plot - stops skewing of scale towards extreme values - easier to see changes at lower abundances
+
+#write lael for y-axis
+yl = expression(Absolute ~ Abundance ~ (Log[2]))
+
+ggplot(bin_abud_df, aes(x = days, y=log2(Abun), group = mOTU, color = mOTU)) + 
+  facet_wrap(~ Treatment) + 
+  geom_line(size=1) + 
+  ylab("log2(Number of mapped reads)") + 
+  xlab("Day") + 
+  scale_colour_manual(values=colourList, breaks=c("1","2","3", "4", "5", "6", "7", "8"), drop=F)+
+  theme_light()+
+  theme(axis.title.x = element_text(face="bold",size=12),
+        axis.text.x = element_text(angle=0, colour = "black", vjust=1, hjust = 0.5, size=10), 
+        axis.text.y = element_text(colour = "black", size=10),
+        axis.title.y = element_text(face="bold",size=12),
+        plot.title = element_text(size = 12),
+        legend.title =element_text(face="bold",size = 12),
+        legend.text = element_text(size = 10),
+        legend.position="right",
+        legend.key.size = unit(.5, "cm"),
+        panel.background = element_blank(),
+        strip.text.x = element_text(size=12, color="black"),
+        panel.border = element_rect(fill = NA, colour = "black"))+
+  guides(colour = guide_legend(override.aes = list(size=3)))
+
+ggsave("PATH/FigS7.pdf",width=6,height=4,units ="in", device="pdf")
+
+
+```
+
