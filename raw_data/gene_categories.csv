@@ -1,0 +1,2080 @@
+,Bin_ID,ANI_Cluster,Category,Gene,value
+190,42_bin.21,1,Carbon fixation,aclb,0
+191,31_bin.4,1,Carbon fixation,aclb,0
+192,29_bin.35,1,Carbon fixation,aclb,0
+193,46_bin.21,1,Carbon fixation,aclb,0
+194,49_bin.10,1,Carbon fixation,aclb,0
+195,24_bin.63,1,Carbon fixation,aclb,0
+196,27_bin.15,1,Carbon fixation,aclb,0
+197,28_bin.47,1,Carbon fixation,aclb,0
+198,41_bin.32,1,Carbon fixation,aclb,0
+199,37_bin.57,1,Carbon fixation,aclb,0
+200,48_bin.50,1,Carbon fixation,aclb,0
+201,32_bin.53,1,Carbon fixation,aclb,0
+202,21_bin.47,1,Carbon fixation,aclb,0
+203,43_bin.59,1,Carbon fixation,aclb,0
+204,23_bin.50,1,Carbon fixation,aclb,0
+205,39_bin.35,1,Carbon fixation,aclb,0
+206,22_bin.14,1,Carbon fixation,aclb,0
+207,36_bin.39,1,Carbon fixation,aclb,0
+208,38_bin.9,1,Carbon fixation,aclb,0
+209,26_bin.9,1,Carbon fixation,aclb,0
+210,44_bin.50,1,Carbon fixation,aclb,0
+211,34_bin.29,1,Carbon fixation,aclb,0
+212,47_bin.30,1,Carbon fixation,aclb,0
+213,31_bin.18,2,Carbon fixation,aclb,0
+214,34_bin.2,2,Carbon fixation,aclb,0
+215,28_bin.46,2,Carbon fixation,aclb,0
+216,42_bin.6,2,Carbon fixation,aclb,0
+217,24_bin.64,2,Carbon fixation,aclb,0
+218,44_bin.41,2,Carbon fixation,aclb,0
+219,43_bin.34,2,Carbon fixation,aclb,0
+220,47_bin.61,2,Carbon fixation,aclb,0
+221,48_bin.65,2,Carbon fixation,aclb,0
+222,41_bin.35,2,Carbon fixation,aclb,0
+223,21_bin.10,2,Carbon fixation,aclb,0
+224,29_bin.53,2,Carbon fixation,aclb,0
+225,36_bin.22,2,Carbon fixation,aclb,0
+226,11_bin.53,2,Carbon fixation,aclb,0
+227,39_bin.46,2,Carbon fixation,aclb,0
+228,22_bin.5,2,Carbon fixation,aclb,0
+229,44_bin.27,3,Carbon fixation,aclb,0
+230,41_bin.37,3,Carbon fixation,aclb,0
+231,29_bin.10,3,Carbon fixation,aclb,0
+232,26_bin.35,3,Carbon fixation,aclb,0
+233,46_bin.59,3,Carbon fixation,aclb,0
+234,34_bin.7,3,Carbon fixation,aclb,0
+235,36_bin.32,3,Carbon fixation,aclb,0
+236,47_bin.64,3,Carbon fixation,aclb,0
+237,49_bin.68,3,Carbon fixation,aclb,0
+238,43_bin.28,3,Carbon fixation,aclb,0
+239,29_bin.22,4,Carbon fixation,aclb,0
+240,47_bin.13,4,Carbon fixation,aclb,0
+241,24_bin.42,4,Carbon fixation,aclb,0
+242,46_bin.73,4,Carbon fixation,aclb,0
+243,49_bin.94,5,Carbon fixation,aclb,0
+244,46_bin.56,5,Carbon fixation,aclb,0
+245,43_bin.39,5,Carbon fixation,aclb,0
+246,41_bin.76,5,Carbon fixation,aclb,0
+247,25_bin.7,6,Carbon fixation,aclb,0
+248,50_bin.1,6,Carbon fixation,aclb,0
+249,45_bin.16,6,Carbon fixation,aclb,0
+250,40_bin.5,6,Carbon fixation,aclb,0
+251,34_bin.28,6,Carbon fixation,aclb,0
+252,41_bin.38,7,Carbon fixation,aclb,0
+442,42_bin.21,1,Trace gas metabolism,all_hyd,1
+443,31_bin.4,1,Trace gas metabolism,all_hyd,1
+444,29_bin.35,1,Trace gas metabolism,all_hyd,1
+445,46_bin.21,1,Trace gas metabolism,all_hyd,1
+446,49_bin.10,1,Trace gas metabolism,all_hyd,1
+447,24_bin.63,1,Trace gas metabolism,all_hyd,1
+448,27_bin.15,1,Trace gas metabolism,all_hyd,1
+449,28_bin.47,1,Trace gas metabolism,all_hyd,1
+450,41_bin.32,1,Trace gas metabolism,all_hyd,1
+451,37_bin.57,1,Trace gas metabolism,all_hyd,1
+452,48_bin.50,1,Trace gas metabolism,all_hyd,1
+453,32_bin.53,1,Trace gas metabolism,all_hyd,1
+454,21_bin.47,1,Trace gas metabolism,all_hyd,1
+455,43_bin.59,1,Trace gas metabolism,all_hyd,1
+456,23_bin.50,1,Trace gas metabolism,all_hyd,1
+457,39_bin.35,1,Trace gas metabolism,all_hyd,1
+458,22_bin.14,1,Trace gas metabolism,all_hyd,1
+459,36_bin.39,1,Trace gas metabolism,all_hyd,1
+460,38_bin.9,1,Trace gas metabolism,all_hyd,1
+461,26_bin.9,1,Trace gas metabolism,all_hyd,1
+462,44_bin.50,1,Trace gas metabolism,all_hyd,1
+463,34_bin.29,1,Trace gas metabolism,all_hyd,1
+464,47_bin.30,1,Trace gas metabolism,all_hyd,1
+465,31_bin.18,2,Trace gas metabolism,all_hyd,1
+466,34_bin.2,2,Trace gas metabolism,all_hyd,1
+467,28_bin.46,2,Trace gas metabolism,all_hyd,1
+468,42_bin.6,2,Trace gas metabolism,all_hyd,1
+469,24_bin.64,2,Trace gas metabolism,all_hyd,1
+470,44_bin.41,2,Trace gas metabolism,all_hyd,1
+471,43_bin.34,2,Trace gas metabolism,all_hyd,1
+472,47_bin.61,2,Trace gas metabolism,all_hyd,1
+473,48_bin.65,2,Trace gas metabolism,all_hyd,1
+474,41_bin.35,2,Trace gas metabolism,all_hyd,1
+475,21_bin.10,2,Trace gas metabolism,all_hyd,1
+476,29_bin.53,2,Trace gas metabolism,all_hyd,1
+477,36_bin.22,2,Trace gas metabolism,all_hyd,1
+478,11_bin.53,2,Trace gas metabolism,all_hyd,1
+479,39_bin.46,2,Trace gas metabolism,all_hyd,1
+480,22_bin.5,2,Trace gas metabolism,all_hyd,1
+481,44_bin.27,3,Trace gas metabolism,all_hyd,1
+482,41_bin.37,3,Trace gas metabolism,all_hyd,1
+483,29_bin.10,3,Trace gas metabolism,all_hyd,1
+484,26_bin.35,3,Trace gas metabolism,all_hyd,1
+485,46_bin.59,3,Trace gas metabolism,all_hyd,1
+486,34_bin.7,3,Trace gas metabolism,all_hyd,1
+487,36_bin.32,3,Trace gas metabolism,all_hyd,1
+488,47_bin.64,3,Trace gas metabolism,all_hyd,1
+489,49_bin.68,3,Trace gas metabolism,all_hyd,1
+490,43_bin.28,3,Trace gas metabolism,all_hyd,1
+491,29_bin.22,4,Trace gas metabolism,all_hyd,0
+492,47_bin.13,4,Trace gas metabolism,all_hyd,0
+493,24_bin.42,4,Trace gas metabolism,all_hyd,0
+494,46_bin.73,4,Trace gas metabolism,all_hyd,0
+495,49_bin.94,5,Trace gas metabolism,all_hyd,1
+496,46_bin.56,5,Trace gas metabolism,all_hyd,1
+497,43_bin.39,5,Trace gas metabolism,all_hyd,1
+498,41_bin.76,5,Trace gas metabolism,all_hyd,1
+499,25_bin.7,6,Trace gas metabolism,all_hyd,0
+500,50_bin.1,6,Trace gas metabolism,all_hyd,0
+501,45_bin.16,6,Trace gas metabolism,all_hyd,0
+502,40_bin.5,6,Trace gas metabolism,all_hyd,0
+503,34_bin.28,6,Trace gas metabolism,all_hyd,0
+504,41_bin.38,7,Trace gas metabolism,all_hyd,1
+820,42_bin.21,1,Nitrogen cycle,amoa,0
+821,31_bin.4,1,Nitrogen cycle,amoa,0
+822,29_bin.35,1,Nitrogen cycle,amoa,0
+823,46_bin.21,1,Nitrogen cycle,amoa,0
+824,49_bin.10,1,Nitrogen cycle,amoa,0
+825,24_bin.63,1,Nitrogen cycle,amoa,0
+826,27_bin.15,1,Nitrogen cycle,amoa,0
+827,28_bin.47,1,Nitrogen cycle,amoa,0
+828,41_bin.32,1,Nitrogen cycle,amoa,0
+829,37_bin.57,1,Nitrogen cycle,amoa,0
+830,48_bin.50,1,Nitrogen cycle,amoa,0
+831,32_bin.53,1,Nitrogen cycle,amoa,0
+832,21_bin.47,1,Nitrogen cycle,amoa,0
+833,43_bin.59,1,Nitrogen cycle,amoa,0
+834,23_bin.50,1,Nitrogen cycle,amoa,0
+835,39_bin.35,1,Nitrogen cycle,amoa,0
+836,22_bin.14,1,Nitrogen cycle,amoa,0
+837,36_bin.39,1,Nitrogen cycle,amoa,0
+838,38_bin.9,1,Nitrogen cycle,amoa,0
+839,26_bin.9,1,Nitrogen cycle,amoa,0
+840,44_bin.50,1,Nitrogen cycle,amoa,0
+841,34_bin.29,1,Nitrogen cycle,amoa,0
+842,47_bin.30,1,Nitrogen cycle,amoa,0
+843,31_bin.18,2,Nitrogen cycle,amoa,0
+844,34_bin.2,2,Nitrogen cycle,amoa,0
+845,28_bin.46,2,Nitrogen cycle,amoa,0
+846,42_bin.6,2,Nitrogen cycle,amoa,0
+847,24_bin.64,2,Nitrogen cycle,amoa,0
+848,44_bin.41,2,Nitrogen cycle,amoa,0
+849,43_bin.34,2,Nitrogen cycle,amoa,0
+850,47_bin.61,2,Nitrogen cycle,amoa,0
+851,48_bin.65,2,Nitrogen cycle,amoa,0
+852,41_bin.35,2,Nitrogen cycle,amoa,0
+853,21_bin.10,2,Nitrogen cycle,amoa,0
+854,29_bin.53,2,Nitrogen cycle,amoa,0
+855,36_bin.22,2,Nitrogen cycle,amoa,0
+856,11_bin.53,2,Nitrogen cycle,amoa,0
+857,39_bin.46,2,Nitrogen cycle,amoa,0
+858,22_bin.5,2,Nitrogen cycle,amoa,0
+859,44_bin.27,3,Nitrogen cycle,amoa,0
+860,41_bin.37,3,Nitrogen cycle,amoa,0
+861,29_bin.10,3,Nitrogen cycle,amoa,0
+862,26_bin.35,3,Nitrogen cycle,amoa,0
+863,46_bin.59,3,Nitrogen cycle,amoa,0
+864,34_bin.7,3,Nitrogen cycle,amoa,0
+865,36_bin.32,3,Nitrogen cycle,amoa,0
+866,47_bin.64,3,Nitrogen cycle,amoa,0
+867,49_bin.68,3,Nitrogen cycle,amoa,0
+868,43_bin.28,3,Nitrogen cycle,amoa,0
+869,29_bin.22,4,Nitrogen cycle,amoa,0
+870,47_bin.13,4,Nitrogen cycle,amoa,0
+871,24_bin.42,4,Nitrogen cycle,amoa,0
+872,46_bin.73,4,Nitrogen cycle,amoa,0
+873,49_bin.94,5,Nitrogen cycle,amoa,0
+874,46_bin.56,5,Nitrogen cycle,amoa,0
+875,43_bin.39,5,Nitrogen cycle,amoa,0
+876,41_bin.76,5,Nitrogen cycle,amoa,0
+877,25_bin.7,6,Nitrogen cycle,amoa,0
+878,50_bin.1,6,Nitrogen cycle,amoa,0
+879,45_bin.16,6,Nitrogen cycle,amoa,0
+880,40_bin.5,6,Nitrogen cycle,amoa,0
+881,34_bin.28,6,Nitrogen cycle,amoa,0
+882,41_bin.38,7,Nitrogen cycle,amoa,0
+505,42_bin.21,1,Trace gas metabolism,coxl,0
+506,31_bin.4,1,Trace gas metabolism,coxl,0
+507,29_bin.35,1,Trace gas metabolism,coxl,0
+508,46_bin.21,1,Trace gas metabolism,coxl,0
+509,49_bin.10,1,Trace gas metabolism,coxl,0
+510,24_bin.63,1,Trace gas metabolism,coxl,0
+511,27_bin.15,1,Trace gas metabolism,coxl,0
+512,28_bin.47,1,Trace gas metabolism,coxl,0
+513,41_bin.32,1,Trace gas metabolism,coxl,0
+514,37_bin.57,1,Trace gas metabolism,coxl,0
+515,48_bin.50,1,Trace gas metabolism,coxl,0
+516,32_bin.53,1,Trace gas metabolism,coxl,0
+517,21_bin.47,1,Trace gas metabolism,coxl,0
+518,43_bin.59,1,Trace gas metabolism,coxl,0
+519,23_bin.50,1,Trace gas metabolism,coxl,0
+520,39_bin.35,1,Trace gas metabolism,coxl,0
+521,22_bin.14,1,Trace gas metabolism,coxl,0
+522,36_bin.39,1,Trace gas metabolism,coxl,0
+523,38_bin.9,1,Trace gas metabolism,coxl,0
+524,26_bin.9,1,Trace gas metabolism,coxl,0
+525,44_bin.50,1,Trace gas metabolism,coxl,0
+526,34_bin.29,1,Trace gas metabolism,coxl,0
+527,47_bin.30,1,Trace gas metabolism,coxl,0
+528,31_bin.18,2,Trace gas metabolism,coxl,0
+529,34_bin.2,2,Trace gas metabolism,coxl,0
+530,28_bin.46,2,Trace gas metabolism,coxl,0
+531,42_bin.6,2,Trace gas metabolism,coxl,0
+532,24_bin.64,2,Trace gas metabolism,coxl,0
+533,44_bin.41,2,Trace gas metabolism,coxl,0
+534,43_bin.34,2,Trace gas metabolism,coxl,0
+535,47_bin.61,2,Trace gas metabolism,coxl,0
+536,48_bin.65,2,Trace gas metabolism,coxl,0
+537,41_bin.35,2,Trace gas metabolism,coxl,0
+538,21_bin.10,2,Trace gas metabolism,coxl,0
+539,29_bin.53,2,Trace gas metabolism,coxl,0
+540,36_bin.22,2,Trace gas metabolism,coxl,0
+541,11_bin.53,2,Trace gas metabolism,coxl,0
+542,39_bin.46,2,Trace gas metabolism,coxl,0
+543,22_bin.5,2,Trace gas metabolism,coxl,0
+544,44_bin.27,3,Trace gas metabolism,coxl,0
+545,41_bin.37,3,Trace gas metabolism,coxl,0
+546,29_bin.10,3,Trace gas metabolism,coxl,0
+547,26_bin.35,3,Trace gas metabolism,coxl,0
+548,46_bin.59,3,Trace gas metabolism,coxl,0
+549,34_bin.7,3,Trace gas metabolism,coxl,0
+550,36_bin.32,3,Trace gas metabolism,coxl,0
+551,47_bin.64,3,Trace gas metabolism,coxl,0
+552,49_bin.68,3,Trace gas metabolism,coxl,0
+553,43_bin.28,3,Trace gas metabolism,coxl,0
+554,29_bin.22,4,Trace gas metabolism,coxl,0
+555,47_bin.13,4,Trace gas metabolism,coxl,0
+556,24_bin.42,4,Trace gas metabolism,coxl,0
+557,46_bin.73,4,Trace gas metabolism,coxl,0
+558,49_bin.94,5,Trace gas metabolism,coxl,0
+559,46_bin.56,5,Trace gas metabolism,coxl,0
+560,43_bin.39,5,Trace gas metabolism,coxl,0
+561,41_bin.76,5,Trace gas metabolism,coxl,0
+562,25_bin.7,6,Trace gas metabolism,coxl,0
+563,50_bin.1,6,Trace gas metabolism,coxl,0
+564,45_bin.16,6,Trace gas metabolism,coxl,0
+565,40_bin.5,6,Trace gas metabolism,coxl,0
+566,34_bin.28,6,Trace gas metabolism,coxl,0
+567,41_bin.38,7,Trace gas metabolism,coxl,0
+631,42_bin.21,1,Alternative e donor,cyc2,0
+632,31_bin.4,1,Alternative e donor,cyc2,0
+633,29_bin.35,1,Alternative e donor,cyc2,0
+634,46_bin.21,1,Alternative e donor,cyc2,0
+635,49_bin.10,1,Alternative e donor,cyc2,0
+636,24_bin.63,1,Alternative e donor,cyc2,0
+637,27_bin.15,1,Alternative e donor,cyc2,0
+638,28_bin.47,1,Alternative e donor,cyc2,0
+639,41_bin.32,1,Alternative e donor,cyc2,0
+640,37_bin.57,1,Alternative e donor,cyc2,0
+641,48_bin.50,1,Alternative e donor,cyc2,0
+642,32_bin.53,1,Alternative e donor,cyc2,0
+643,21_bin.47,1,Alternative e donor,cyc2,0
+644,43_bin.59,1,Alternative e donor,cyc2,0
+645,23_bin.50,1,Alternative e donor,cyc2,0
+646,39_bin.35,1,Alternative e donor,cyc2,0
+647,22_bin.14,1,Alternative e donor,cyc2,0
+648,36_bin.39,1,Alternative e donor,cyc2,0
+649,38_bin.9,1,Alternative e donor,cyc2,0
+650,26_bin.9,1,Alternative e donor,cyc2,0
+651,44_bin.50,1,Alternative e donor,cyc2,0
+652,34_bin.29,1,Alternative e donor,cyc2,0
+653,47_bin.30,1,Alternative e donor,cyc2,0
+654,31_bin.18,2,Alternative e donor,cyc2,0
+655,34_bin.2,2,Alternative e donor,cyc2,0
+656,28_bin.46,2,Alternative e donor,cyc2,0
+657,42_bin.6,2,Alternative e donor,cyc2,0
+658,24_bin.64,2,Alternative e donor,cyc2,0
+659,44_bin.41,2,Alternative e donor,cyc2,0
+660,43_bin.34,2,Alternative e donor,cyc2,0
+661,47_bin.61,2,Alternative e donor,cyc2,0
+662,48_bin.65,2,Alternative e donor,cyc2,0
+663,41_bin.35,2,Alternative e donor,cyc2,0
+664,21_bin.10,2,Alternative e donor,cyc2,0
+665,29_bin.53,2,Alternative e donor,cyc2,0
+666,36_bin.22,2,Alternative e donor,cyc2,0
+667,11_bin.53,2,Alternative e donor,cyc2,0
+668,39_bin.46,2,Alternative e donor,cyc2,0
+669,22_bin.5,2,Alternative e donor,cyc2,0
+670,44_bin.27,3,Alternative e donor,cyc2,0
+671,41_bin.37,3,Alternative e donor,cyc2,0
+672,29_bin.10,3,Alternative e donor,cyc2,0
+673,26_bin.35,3,Alternative e donor,cyc2,0
+674,46_bin.59,3,Alternative e donor,cyc2,0
+675,34_bin.7,3,Alternative e donor,cyc2,0
+676,36_bin.32,3,Alternative e donor,cyc2,0
+677,47_bin.64,3,Alternative e donor,cyc2,0
+678,49_bin.68,3,Alternative e donor,cyc2,0
+679,43_bin.28,3,Alternative e donor,cyc2,0
+680,29_bin.22,4,Alternative e donor,cyc2,0
+681,47_bin.13,4,Alternative e donor,cyc2,0
+682,24_bin.42,4,Alternative e donor,cyc2,0
+683,46_bin.73,4,Alternative e donor,cyc2,1
+684,49_bin.94,5,Alternative e donor,cyc2,0
+685,46_bin.56,5,Alternative e donor,cyc2,0
+686,43_bin.39,5,Alternative e donor,cyc2,0
+687,41_bin.76,5,Alternative e donor,cyc2,0
+688,25_bin.7,6,Alternative e donor,cyc2,0
+689,50_bin.1,6,Alternative e donor,cyc2,0
+690,45_bin.16,6,Alternative e donor,cyc2,0
+691,40_bin.5,6,Alternative e donor,cyc2,0
+692,34_bin.28,6,Alternative e donor,cyc2,0
+693,41_bin.38,7,Alternative e donor,cyc2,0
+1,42_bin.21,1,Sulfur cycle,fcc,0
+2,31_bin.4,1,Sulfur cycle,fcc,0
+3,29_bin.35,1,Sulfur cycle,fcc,0
+4,46_bin.21,1,Sulfur cycle,fcc,0
+5,49_bin.10,1,Sulfur cycle,fcc,0
+6,24_bin.63,1,Sulfur cycle,fcc,0
+7,27_bin.15,1,Sulfur cycle,fcc,0
+8,28_bin.47,1,Sulfur cycle,fcc,0
+9,41_bin.32,1,Sulfur cycle,fcc,0
+10,37_bin.57,1,Sulfur cycle,fcc,0
+11,48_bin.50,1,Sulfur cycle,fcc,0
+12,32_bin.53,1,Sulfur cycle,fcc,0
+13,21_bin.47,1,Sulfur cycle,fcc,0
+14,43_bin.59,1,Sulfur cycle,fcc,0
+15,23_bin.50,1,Sulfur cycle,fcc,0
+16,39_bin.35,1,Sulfur cycle,fcc,0
+17,22_bin.14,1,Sulfur cycle,fcc,0
+18,36_bin.39,1,Sulfur cycle,fcc,0
+19,38_bin.9,1,Sulfur cycle,fcc,0
+20,26_bin.9,1,Sulfur cycle,fcc,0
+21,44_bin.50,1,Sulfur cycle,fcc,0
+22,34_bin.29,1,Sulfur cycle,fcc,0
+23,47_bin.30,1,Sulfur cycle,fcc,0
+24,31_bin.18,2,Sulfur cycle,fcc,0
+25,34_bin.2,2,Sulfur cycle,fcc,0
+26,28_bin.46,2,Sulfur cycle,fcc,0
+27,42_bin.6,2,Sulfur cycle,fcc,0
+28,24_bin.64,2,Sulfur cycle,fcc,0
+29,44_bin.41,2,Sulfur cycle,fcc,0
+30,43_bin.34,2,Sulfur cycle,fcc,0
+31,47_bin.61,2,Sulfur cycle,fcc,0
+32,48_bin.65,2,Sulfur cycle,fcc,0
+33,41_bin.35,2,Sulfur cycle,fcc,0
+34,21_bin.10,2,Sulfur cycle,fcc,0
+35,29_bin.53,2,Sulfur cycle,fcc,0
+36,36_bin.22,2,Sulfur cycle,fcc,0
+37,11_bin.53,2,Sulfur cycle,fcc,0
+38,39_bin.46,2,Sulfur cycle,fcc,0
+39,22_bin.5,2,Sulfur cycle,fcc,0
+40,44_bin.27,3,Sulfur cycle,fcc,0
+41,41_bin.37,3,Sulfur cycle,fcc,0
+42,29_bin.10,3,Sulfur cycle,fcc,0
+43,26_bin.35,3,Sulfur cycle,fcc,0
+44,46_bin.59,3,Sulfur cycle,fcc,0
+45,34_bin.7,3,Sulfur cycle,fcc,0
+46,36_bin.32,3,Sulfur cycle,fcc,0
+47,47_bin.64,3,Sulfur cycle,fcc,0
+48,49_bin.68,3,Sulfur cycle,fcc,0
+49,43_bin.28,3,Sulfur cycle,fcc,0
+50,29_bin.22,4,Sulfur cycle,fcc,0
+51,47_bin.13,4,Sulfur cycle,fcc,0
+52,24_bin.42,4,Sulfur cycle,fcc,0
+53,46_bin.73,4,Sulfur cycle,fcc,0
+54,49_bin.94,5,Sulfur cycle,fcc,0
+55,46_bin.56,5,Sulfur cycle,fcc,0
+56,43_bin.39,5,Sulfur cycle,fcc,0
+57,41_bin.76,5,Sulfur cycle,fcc,0
+58,25_bin.7,6,Sulfur cycle,fcc,0
+59,50_bin.1,6,Sulfur cycle,fcc,0
+60,45_bin.16,6,Sulfur cycle,fcc,0
+61,40_bin.5,6,Sulfur cycle,fcc,0
+62,34_bin.28,6,Sulfur cycle,fcc,0
+63,41_bin.38,7,Sulfur cycle,fcc,0
+253,42_bin.21,1,Carbon fixation,mcr,0
+254,31_bin.4,1,Carbon fixation,mcr,0
+255,29_bin.35,1,Carbon fixation,mcr,0
+256,46_bin.21,1,Carbon fixation,mcr,0
+257,49_bin.10,1,Carbon fixation,mcr,0
+258,24_bin.63,1,Carbon fixation,mcr,0
+259,27_bin.15,1,Carbon fixation,mcr,0
+260,28_bin.47,1,Carbon fixation,mcr,0
+261,41_bin.32,1,Carbon fixation,mcr,0
+262,37_bin.57,1,Carbon fixation,mcr,0
+263,48_bin.50,1,Carbon fixation,mcr,0
+264,32_bin.53,1,Carbon fixation,mcr,0
+265,21_bin.47,1,Carbon fixation,mcr,0
+266,43_bin.59,1,Carbon fixation,mcr,0
+267,23_bin.50,1,Carbon fixation,mcr,0
+268,39_bin.35,1,Carbon fixation,mcr,0
+269,22_bin.14,1,Carbon fixation,mcr,0
+270,36_bin.39,1,Carbon fixation,mcr,0
+271,38_bin.9,1,Carbon fixation,mcr,0
+272,26_bin.9,1,Carbon fixation,mcr,0
+273,44_bin.50,1,Carbon fixation,mcr,0
+274,34_bin.29,1,Carbon fixation,mcr,0
+275,47_bin.30,1,Carbon fixation,mcr,0
+276,31_bin.18,2,Carbon fixation,mcr,0
+277,34_bin.2,2,Carbon fixation,mcr,0
+278,28_bin.46,2,Carbon fixation,mcr,0
+279,42_bin.6,2,Carbon fixation,mcr,0
+280,24_bin.64,2,Carbon fixation,mcr,0
+281,44_bin.41,2,Carbon fixation,mcr,0
+282,43_bin.34,2,Carbon fixation,mcr,0
+283,47_bin.61,2,Carbon fixation,mcr,0
+284,48_bin.65,2,Carbon fixation,mcr,0
+285,41_bin.35,2,Carbon fixation,mcr,0
+286,21_bin.10,2,Carbon fixation,mcr,0
+287,29_bin.53,2,Carbon fixation,mcr,0
+288,36_bin.22,2,Carbon fixation,mcr,0
+289,11_bin.53,2,Carbon fixation,mcr,0
+290,39_bin.46,2,Carbon fixation,mcr,0
+291,22_bin.5,2,Carbon fixation,mcr,0
+292,44_bin.27,3,Carbon fixation,mcr,0
+293,41_bin.37,3,Carbon fixation,mcr,0
+294,29_bin.10,3,Carbon fixation,mcr,0
+295,26_bin.35,3,Carbon fixation,mcr,0
+296,46_bin.59,3,Carbon fixation,mcr,0
+297,34_bin.7,3,Carbon fixation,mcr,0
+298,36_bin.32,3,Carbon fixation,mcr,0
+299,47_bin.64,3,Carbon fixation,mcr,0
+300,49_bin.68,3,Carbon fixation,mcr,0
+301,43_bin.28,3,Carbon fixation,mcr,0
+302,29_bin.22,4,Carbon fixation,mcr,0
+303,47_bin.13,4,Carbon fixation,mcr,0
+304,24_bin.42,4,Carbon fixation,mcr,0
+305,46_bin.73,4,Carbon fixation,mcr,0
+306,49_bin.94,5,Carbon fixation,mcr,0
+307,46_bin.56,5,Carbon fixation,mcr,0
+308,43_bin.39,5,Carbon fixation,mcr,0
+309,41_bin.76,5,Carbon fixation,mcr,0
+310,25_bin.7,6,Carbon fixation,mcr,0
+311,50_bin.1,6,Carbon fixation,mcr,0
+312,45_bin.16,6,Carbon fixation,mcr,0
+313,40_bin.5,6,Carbon fixation,mcr,0
+314,34_bin.28,6,Carbon fixation,mcr,0
+315,41_bin.38,7,Carbon fixation,mcr,0
+883,42_bin.21,1,Nitrogen cycle,napa,0
+884,31_bin.4,1,Nitrogen cycle,napa,0
+885,29_bin.35,1,Nitrogen cycle,napa,0
+886,46_bin.21,1,Nitrogen cycle,napa,0
+887,49_bin.10,1,Nitrogen cycle,napa,0
+888,24_bin.63,1,Nitrogen cycle,napa,0
+889,27_bin.15,1,Nitrogen cycle,napa,0
+890,28_bin.47,1,Nitrogen cycle,napa,0
+891,41_bin.32,1,Nitrogen cycle,napa,0
+892,37_bin.57,1,Nitrogen cycle,napa,0
+893,48_bin.50,1,Nitrogen cycle,napa,0
+894,32_bin.53,1,Nitrogen cycle,napa,0
+895,21_bin.47,1,Nitrogen cycle,napa,0
+896,43_bin.59,1,Nitrogen cycle,napa,0
+897,23_bin.50,1,Nitrogen cycle,napa,0
+898,39_bin.35,1,Nitrogen cycle,napa,0
+899,22_bin.14,1,Nitrogen cycle,napa,0
+900,36_bin.39,1,Nitrogen cycle,napa,0
+901,38_bin.9,1,Nitrogen cycle,napa,0
+902,26_bin.9,1,Nitrogen cycle,napa,0
+903,44_bin.50,1,Nitrogen cycle,napa,0
+904,34_bin.29,1,Nitrogen cycle,napa,0
+905,47_bin.30,1,Nitrogen cycle,napa,0
+906,31_bin.18,2,Nitrogen cycle,napa,1
+907,34_bin.2,2,Nitrogen cycle,napa,1
+908,28_bin.46,2,Nitrogen cycle,napa,1
+909,42_bin.6,2,Nitrogen cycle,napa,1
+910,24_bin.64,2,Nitrogen cycle,napa,1
+911,44_bin.41,2,Nitrogen cycle,napa,1
+912,43_bin.34,2,Nitrogen cycle,napa,1
+913,47_bin.61,2,Nitrogen cycle,napa,1
+914,48_bin.65,2,Nitrogen cycle,napa,1
+915,41_bin.35,2,Nitrogen cycle,napa,1
+916,21_bin.10,2,Nitrogen cycle,napa,1
+917,29_bin.53,2,Nitrogen cycle,napa,1
+918,36_bin.22,2,Nitrogen cycle,napa,1
+919,11_bin.53,2,Nitrogen cycle,napa,1
+920,39_bin.46,2,Nitrogen cycle,napa,1
+921,22_bin.5,2,Nitrogen cycle,napa,1
+922,44_bin.27,3,Nitrogen cycle,napa,0
+923,41_bin.37,3,Nitrogen cycle,napa,0
+924,29_bin.10,3,Nitrogen cycle,napa,0
+925,26_bin.35,3,Nitrogen cycle,napa,0
+926,46_bin.59,3,Nitrogen cycle,napa,0
+927,34_bin.7,3,Nitrogen cycle,napa,0
+928,36_bin.32,3,Nitrogen cycle,napa,0
+929,47_bin.64,3,Nitrogen cycle,napa,0
+930,49_bin.68,3,Nitrogen cycle,napa,0
+931,43_bin.28,3,Nitrogen cycle,napa,0
+932,29_bin.22,4,Nitrogen cycle,napa,0
+933,47_bin.13,4,Nitrogen cycle,napa,0
+934,24_bin.42,4,Nitrogen cycle,napa,0
+935,46_bin.73,4,Nitrogen cycle,napa,0
+936,49_bin.94,5,Nitrogen cycle,napa,0
+937,46_bin.56,5,Nitrogen cycle,napa,0
+938,43_bin.39,5,Nitrogen cycle,napa,0
+939,41_bin.76,5,Nitrogen cycle,napa,0
+940,25_bin.7,6,Nitrogen cycle,napa,0
+941,50_bin.1,6,Nitrogen cycle,napa,0
+942,45_bin.16,6,Nitrogen cycle,napa,0
+943,40_bin.5,6,Nitrogen cycle,napa,0
+944,34_bin.28,6,Nitrogen cycle,napa,0
+945,41_bin.38,7,Nitrogen cycle,napa,0
+946,42_bin.21,1,Nitrogen cycle,narg,0
+947,31_bin.4,1,Nitrogen cycle,narg,0
+948,29_bin.35,1,Nitrogen cycle,narg,0
+949,46_bin.21,1,Nitrogen cycle,narg,0
+950,49_bin.10,1,Nitrogen cycle,narg,0
+951,24_bin.63,1,Nitrogen cycle,narg,0
+952,27_bin.15,1,Nitrogen cycle,narg,0
+953,28_bin.47,1,Nitrogen cycle,narg,0
+954,41_bin.32,1,Nitrogen cycle,narg,0
+955,37_bin.57,1,Nitrogen cycle,narg,0
+956,48_bin.50,1,Nitrogen cycle,narg,0
+957,32_bin.53,1,Nitrogen cycle,narg,0
+958,21_bin.47,1,Nitrogen cycle,narg,0
+959,43_bin.59,1,Nitrogen cycle,narg,0
+960,23_bin.50,1,Nitrogen cycle,narg,0
+961,39_bin.35,1,Nitrogen cycle,narg,0
+962,22_bin.14,1,Nitrogen cycle,narg,0
+963,36_bin.39,1,Nitrogen cycle,narg,0
+964,38_bin.9,1,Nitrogen cycle,narg,0
+965,26_bin.9,1,Nitrogen cycle,narg,0
+966,44_bin.50,1,Nitrogen cycle,narg,0
+967,34_bin.29,1,Nitrogen cycle,narg,0
+968,47_bin.30,1,Nitrogen cycle,narg,0
+969,31_bin.18,2,Nitrogen cycle,narg,0
+970,34_bin.2,2,Nitrogen cycle,narg,0
+971,28_bin.46,2,Nitrogen cycle,narg,0
+972,42_bin.6,2,Nitrogen cycle,narg,0
+973,24_bin.64,2,Nitrogen cycle,narg,0
+974,44_bin.41,2,Nitrogen cycle,narg,0
+975,43_bin.34,2,Nitrogen cycle,narg,0
+976,47_bin.61,2,Nitrogen cycle,narg,0
+977,48_bin.65,2,Nitrogen cycle,narg,0
+978,41_bin.35,2,Nitrogen cycle,narg,0
+979,21_bin.10,2,Nitrogen cycle,narg,0
+980,29_bin.53,2,Nitrogen cycle,narg,0
+981,36_bin.22,2,Nitrogen cycle,narg,0
+982,11_bin.53,2,Nitrogen cycle,narg,0
+983,39_bin.46,2,Nitrogen cycle,narg,0
+984,22_bin.5,2,Nitrogen cycle,narg,0
+985,44_bin.27,3,Nitrogen cycle,narg,0
+986,41_bin.37,3,Nitrogen cycle,narg,0
+987,29_bin.10,3,Nitrogen cycle,narg,0
+988,26_bin.35,3,Nitrogen cycle,narg,0
+989,46_bin.59,3,Nitrogen cycle,narg,0
+990,34_bin.7,3,Nitrogen cycle,narg,0
+991,36_bin.32,3,Nitrogen cycle,narg,0
+992,47_bin.64,3,Nitrogen cycle,narg,0
+993,49_bin.68,3,Nitrogen cycle,narg,0
+994,43_bin.28,3,Nitrogen cycle,narg,0
+995,29_bin.22,4,Nitrogen cycle,narg,0
+996,47_bin.13,4,Nitrogen cycle,narg,0
+997,24_bin.42,4,Nitrogen cycle,narg,0
+998,46_bin.73,4,Nitrogen cycle,narg,0
+999,49_bin.94,5,Nitrogen cycle,narg,0
+1000,46_bin.56,5,Nitrogen cycle,narg,0
+1001,43_bin.39,5,Nitrogen cycle,narg,0
+1002,41_bin.76,5,Nitrogen cycle,narg,0
+1003,25_bin.7,6,Nitrogen cycle,narg,0
+1004,50_bin.1,6,Nitrogen cycle,narg,0
+1005,45_bin.16,6,Nitrogen cycle,narg,0
+1006,40_bin.5,6,Nitrogen cycle,narg,0
+1007,34_bin.28,6,Nitrogen cycle,narg,0
+1008,41_bin.38,7,Nitrogen cycle,narg,0
+1009,42_bin.21,1,Nitrogen cycle,nifh,0
+1010,31_bin.4,1,Nitrogen cycle,nifh,0
+1011,29_bin.35,1,Nitrogen cycle,nifh,0
+1012,46_bin.21,1,Nitrogen cycle,nifh,0
+1013,49_bin.10,1,Nitrogen cycle,nifh,0
+1014,24_bin.63,1,Nitrogen cycle,nifh,0
+1015,27_bin.15,1,Nitrogen cycle,nifh,0
+1016,28_bin.47,1,Nitrogen cycle,nifh,0
+1017,41_bin.32,1,Nitrogen cycle,nifh,0
+1018,37_bin.57,1,Nitrogen cycle,nifh,0
+1019,48_bin.50,1,Nitrogen cycle,nifh,0
+1020,32_bin.53,1,Nitrogen cycle,nifh,0
+1021,21_bin.47,1,Nitrogen cycle,nifh,0
+1022,43_bin.59,1,Nitrogen cycle,nifh,0
+1023,23_bin.50,1,Nitrogen cycle,nifh,0
+1024,39_bin.35,1,Nitrogen cycle,nifh,0
+1025,22_bin.14,1,Nitrogen cycle,nifh,0
+1026,36_bin.39,1,Nitrogen cycle,nifh,0
+1027,38_bin.9,1,Nitrogen cycle,nifh,0
+1028,26_bin.9,1,Nitrogen cycle,nifh,0
+1029,44_bin.50,1,Nitrogen cycle,nifh,0
+1030,34_bin.29,1,Nitrogen cycle,nifh,0
+1031,47_bin.30,1,Nitrogen cycle,nifh,0
+1032,31_bin.18,2,Nitrogen cycle,nifh,0
+1033,34_bin.2,2,Nitrogen cycle,nifh,0
+1034,28_bin.46,2,Nitrogen cycle,nifh,0
+1035,42_bin.6,2,Nitrogen cycle,nifh,0
+1036,24_bin.64,2,Nitrogen cycle,nifh,0
+1037,44_bin.41,2,Nitrogen cycle,nifh,0
+1038,43_bin.34,2,Nitrogen cycle,nifh,0
+1039,47_bin.61,2,Nitrogen cycle,nifh,0
+1040,48_bin.65,2,Nitrogen cycle,nifh,0
+1041,41_bin.35,2,Nitrogen cycle,nifh,0
+1042,21_bin.10,2,Nitrogen cycle,nifh,0
+1043,29_bin.53,2,Nitrogen cycle,nifh,0
+1044,36_bin.22,2,Nitrogen cycle,nifh,0
+1045,11_bin.53,2,Nitrogen cycle,nifh,0
+1046,39_bin.46,2,Nitrogen cycle,nifh,0
+1047,22_bin.5,2,Nitrogen cycle,nifh,0
+1048,44_bin.27,3,Nitrogen cycle,nifh,0
+1049,41_bin.37,3,Nitrogen cycle,nifh,0
+1050,29_bin.10,3,Nitrogen cycle,nifh,1
+1051,26_bin.35,3,Nitrogen cycle,nifh,1
+1052,46_bin.59,3,Nitrogen cycle,nifh,0
+1053,34_bin.7,3,Nitrogen cycle,nifh,1
+1054,36_bin.32,3,Nitrogen cycle,nifh,1
+1055,47_bin.64,3,Nitrogen cycle,nifh,1
+1056,49_bin.68,3,Nitrogen cycle,nifh,0
+1057,43_bin.28,3,Nitrogen cycle,nifh,1
+1058,29_bin.22,4,Nitrogen cycle,nifh,0
+1059,47_bin.13,4,Nitrogen cycle,nifh,0
+1060,24_bin.42,4,Nitrogen cycle,nifh,0
+1061,46_bin.73,4,Nitrogen cycle,nifh,0
+1062,49_bin.94,5,Nitrogen cycle,nifh,0
+1063,46_bin.56,5,Nitrogen cycle,nifh,0
+1064,43_bin.39,5,Nitrogen cycle,nifh,0
+1065,41_bin.76,5,Nitrogen cycle,nifh,0
+1066,25_bin.7,6,Nitrogen cycle,nifh,0
+1067,50_bin.1,6,Nitrogen cycle,nifh,0
+1068,45_bin.16,6,Nitrogen cycle,nifh,0
+1069,40_bin.5,6,Nitrogen cycle,nifh,0
+1070,34_bin.28,6,Nitrogen cycle,nifh,0
+1071,41_bin.38,7,Nitrogen cycle,nifh,0
+1072,42_bin.21,1,Nitrogen cycle,nirk,1
+1073,31_bin.4,1,Nitrogen cycle,nirk,1
+1074,29_bin.35,1,Nitrogen cycle,nirk,1
+1075,46_bin.21,1,Nitrogen cycle,nirk,1
+1076,49_bin.10,1,Nitrogen cycle,nirk,1
+1077,24_bin.63,1,Nitrogen cycle,nirk,1
+1078,27_bin.15,1,Nitrogen cycle,nirk,1
+1079,28_bin.47,1,Nitrogen cycle,nirk,1
+1080,41_bin.32,1,Nitrogen cycle,nirk,1
+1081,37_bin.57,1,Nitrogen cycle,nirk,1
+1082,48_bin.50,1,Nitrogen cycle,nirk,1
+1083,32_bin.53,1,Nitrogen cycle,nirk,1
+1084,21_bin.47,1,Nitrogen cycle,nirk,1
+1085,43_bin.59,1,Nitrogen cycle,nirk,1
+1086,23_bin.50,1,Nitrogen cycle,nirk,1
+1087,39_bin.35,1,Nitrogen cycle,nirk,1
+1088,22_bin.14,1,Nitrogen cycle,nirk,1
+1089,36_bin.39,1,Nitrogen cycle,nirk,1
+1090,38_bin.9,1,Nitrogen cycle,nirk,1
+1091,26_bin.9,1,Nitrogen cycle,nirk,1
+1092,44_bin.50,1,Nitrogen cycle,nirk,1
+1093,34_bin.29,1,Nitrogen cycle,nirk,1
+1094,47_bin.30,1,Nitrogen cycle,nirk,1
+1095,31_bin.18,2,Nitrogen cycle,nirk,0
+1096,34_bin.2,2,Nitrogen cycle,nirk,0
+1097,28_bin.46,2,Nitrogen cycle,nirk,0
+1098,42_bin.6,2,Nitrogen cycle,nirk,0
+1099,24_bin.64,2,Nitrogen cycle,nirk,0
+1100,44_bin.41,2,Nitrogen cycle,nirk,0
+1101,43_bin.34,2,Nitrogen cycle,nirk,0
+1102,47_bin.61,2,Nitrogen cycle,nirk,0
+1103,48_bin.65,2,Nitrogen cycle,nirk,0
+1104,41_bin.35,2,Nitrogen cycle,nirk,0
+1105,21_bin.10,2,Nitrogen cycle,nirk,0
+1106,29_bin.53,2,Nitrogen cycle,nirk,0
+1107,36_bin.22,2,Nitrogen cycle,nirk,0
+1108,11_bin.53,2,Nitrogen cycle,nirk,0
+1109,39_bin.46,2,Nitrogen cycle,nirk,0
+1110,22_bin.5,2,Nitrogen cycle,nirk,0
+1111,44_bin.27,3,Nitrogen cycle,nirk,0
+1112,41_bin.37,3,Nitrogen cycle,nirk,0
+1113,29_bin.10,3,Nitrogen cycle,nirk,0
+1114,26_bin.35,3,Nitrogen cycle,nirk,0
+1115,46_bin.59,3,Nitrogen cycle,nirk,0
+1116,34_bin.7,3,Nitrogen cycle,nirk,0
+1117,36_bin.32,3,Nitrogen cycle,nirk,0
+1118,47_bin.64,3,Nitrogen cycle,nirk,0
+1119,49_bin.68,3,Nitrogen cycle,nirk,0
+1120,43_bin.28,3,Nitrogen cycle,nirk,0
+1121,29_bin.22,4,Nitrogen cycle,nirk,1
+1122,47_bin.13,4,Nitrogen cycle,nirk,1
+1123,24_bin.42,4,Nitrogen cycle,nirk,1
+1124,46_bin.73,4,Nitrogen cycle,nirk,1
+1125,49_bin.94,5,Nitrogen cycle,nirk,0
+1126,46_bin.56,5,Nitrogen cycle,nirk,1
+1127,43_bin.39,5,Nitrogen cycle,nirk,1
+1128,41_bin.76,5,Nitrogen cycle,nirk,1
+1129,25_bin.7,6,Nitrogen cycle,nirk,0
+1130,50_bin.1,6,Nitrogen cycle,nirk,0
+1131,45_bin.16,6,Nitrogen cycle,nirk,0
+1132,40_bin.5,6,Nitrogen cycle,nirk,0
+1133,34_bin.28,6,Nitrogen cycle,nirk,0
+1134,41_bin.38,7,Nitrogen cycle,nirk,1
+1135,42_bin.21,1,Nitrogen cycle,nirs,0
+1136,31_bin.4,1,Nitrogen cycle,nirs,0
+1137,29_bin.35,1,Nitrogen cycle,nirs,0
+1138,46_bin.21,1,Nitrogen cycle,nirs,0
+1139,49_bin.10,1,Nitrogen cycle,nirs,0
+1140,24_bin.63,1,Nitrogen cycle,nirs,0
+1141,27_bin.15,1,Nitrogen cycle,nirs,0
+1142,28_bin.47,1,Nitrogen cycle,nirs,0
+1143,41_bin.32,1,Nitrogen cycle,nirs,0
+1144,37_bin.57,1,Nitrogen cycle,nirs,0
+1145,48_bin.50,1,Nitrogen cycle,nirs,0
+1146,32_bin.53,1,Nitrogen cycle,nirs,0
+1147,21_bin.47,1,Nitrogen cycle,nirs,0
+1148,43_bin.59,1,Nitrogen cycle,nirs,0
+1149,23_bin.50,1,Nitrogen cycle,nirs,0
+1150,39_bin.35,1,Nitrogen cycle,nirs,0
+1151,22_bin.14,1,Nitrogen cycle,nirs,0
+1152,36_bin.39,1,Nitrogen cycle,nirs,0
+1153,38_bin.9,1,Nitrogen cycle,nirs,0
+1154,26_bin.9,1,Nitrogen cycle,nirs,0
+1155,44_bin.50,1,Nitrogen cycle,nirs,0
+1156,34_bin.29,1,Nitrogen cycle,nirs,0
+1157,47_bin.30,1,Nitrogen cycle,nirs,0
+1158,31_bin.18,2,Nitrogen cycle,nirs,0
+1159,34_bin.2,2,Nitrogen cycle,nirs,0
+1160,28_bin.46,2,Nitrogen cycle,nirs,0
+1161,42_bin.6,2,Nitrogen cycle,nirs,0
+1162,24_bin.64,2,Nitrogen cycle,nirs,0
+1163,44_bin.41,2,Nitrogen cycle,nirs,0
+1164,43_bin.34,2,Nitrogen cycle,nirs,0
+1165,47_bin.61,2,Nitrogen cycle,nirs,0
+1166,48_bin.65,2,Nitrogen cycle,nirs,0
+1167,41_bin.35,2,Nitrogen cycle,nirs,0
+1168,21_bin.10,2,Nitrogen cycle,nirs,0
+1169,29_bin.53,2,Nitrogen cycle,nirs,0
+1170,36_bin.22,2,Nitrogen cycle,nirs,0
+1171,11_bin.53,2,Nitrogen cycle,nirs,0
+1172,39_bin.46,2,Nitrogen cycle,nirs,0
+1173,22_bin.5,2,Nitrogen cycle,nirs,0
+1174,44_bin.27,3,Nitrogen cycle,nirs,0
+1175,41_bin.37,3,Nitrogen cycle,nirs,0
+1176,29_bin.10,3,Nitrogen cycle,nirs,0
+1177,26_bin.35,3,Nitrogen cycle,nirs,0
+1178,46_bin.59,3,Nitrogen cycle,nirs,0
+1179,34_bin.7,3,Nitrogen cycle,nirs,0
+1180,36_bin.32,3,Nitrogen cycle,nirs,0
+1181,47_bin.64,3,Nitrogen cycle,nirs,0
+1182,49_bin.68,3,Nitrogen cycle,nirs,0
+1183,43_bin.28,3,Nitrogen cycle,nirs,0
+1184,29_bin.22,4,Nitrogen cycle,nirs,0
+1185,47_bin.13,4,Nitrogen cycle,nirs,0
+1186,24_bin.42,4,Nitrogen cycle,nirs,0
+1187,46_bin.73,4,Nitrogen cycle,nirs,0
+1188,49_bin.94,5,Nitrogen cycle,nirs,0
+1189,46_bin.56,5,Nitrogen cycle,nirs,0
+1190,43_bin.39,5,Nitrogen cycle,nirs,0
+1191,41_bin.76,5,Nitrogen cycle,nirs,0
+1192,25_bin.7,6,Nitrogen cycle,nirs,0
+1193,50_bin.1,6,Nitrogen cycle,nirs,0
+1194,45_bin.16,6,Nitrogen cycle,nirs,0
+1195,40_bin.5,6,Nitrogen cycle,nirs,0
+1196,34_bin.28,6,Nitrogen cycle,nirs,0
+1197,41_bin.38,7,Nitrogen cycle,nirs,0
+757,42_bin.21,1,Nitrogen cycle,norb,1
+758,31_bin.4,1,Nitrogen cycle,norb,1
+759,29_bin.35,1,Nitrogen cycle,norb,1
+760,46_bin.21,1,Nitrogen cycle,norb,1
+761,49_bin.10,1,Nitrogen cycle,norb,1
+762,24_bin.63,1,Nitrogen cycle,norb,1
+763,27_bin.15,1,Nitrogen cycle,norb,1
+764,28_bin.47,1,Nitrogen cycle,norb,1
+765,41_bin.32,1,Nitrogen cycle,norb,1
+766,37_bin.57,1,Nitrogen cycle,norb,1
+767,48_bin.50,1,Nitrogen cycle,norb,1
+768,32_bin.53,1,Nitrogen cycle,norb,1
+769,21_bin.47,1,Nitrogen cycle,norb,0
+770,43_bin.59,1,Nitrogen cycle,norb,1
+771,23_bin.50,1,Nitrogen cycle,norb,1
+772,39_bin.35,1,Nitrogen cycle,norb,1
+773,22_bin.14,1,Nitrogen cycle,norb,1
+774,36_bin.39,1,Nitrogen cycle,norb,1
+775,38_bin.9,1,Nitrogen cycle,norb,1
+776,26_bin.9,1,Nitrogen cycle,norb,1
+777,44_bin.50,1,Nitrogen cycle,norb,1
+778,34_bin.29,1,Nitrogen cycle,norb,1
+779,47_bin.30,1,Nitrogen cycle,norb,1
+780,31_bin.18,2,Nitrogen cycle,norb,1
+781,34_bin.2,2,Nitrogen cycle,norb,1
+782,28_bin.46,2,Nitrogen cycle,norb,1
+783,42_bin.6,2,Nitrogen cycle,norb,1
+784,24_bin.64,2,Nitrogen cycle,norb,1
+785,44_bin.41,2,Nitrogen cycle,norb,1
+786,43_bin.34,2,Nitrogen cycle,norb,1
+787,47_bin.61,2,Nitrogen cycle,norb,1
+788,48_bin.65,2,Nitrogen cycle,norb,1
+789,41_bin.35,2,Nitrogen cycle,norb,1
+790,21_bin.10,2,Nitrogen cycle,norb,1
+791,29_bin.53,2,Nitrogen cycle,norb,1
+792,36_bin.22,2,Nitrogen cycle,norb,1
+793,11_bin.53,2,Nitrogen cycle,norb,1
+794,39_bin.46,2,Nitrogen cycle,norb,1
+795,22_bin.5,2,Nitrogen cycle,norb,1
+796,44_bin.27,3,Nitrogen cycle,norb,0
+797,41_bin.37,3,Nitrogen cycle,norb,0
+798,29_bin.10,3,Nitrogen cycle,norb,0
+799,26_bin.35,3,Nitrogen cycle,norb,0
+800,46_bin.59,3,Nitrogen cycle,norb,0
+801,34_bin.7,3,Nitrogen cycle,norb,0
+802,36_bin.32,3,Nitrogen cycle,norb,0
+803,47_bin.64,3,Nitrogen cycle,norb,0
+804,49_bin.68,3,Nitrogen cycle,norb,0
+805,43_bin.28,3,Nitrogen cycle,norb,0
+806,29_bin.22,4,Nitrogen cycle,norb,1
+807,47_bin.13,4,Nitrogen cycle,norb,1
+808,24_bin.42,4,Nitrogen cycle,norb,1
+809,46_bin.73,4,Nitrogen cycle,norb,1
+810,49_bin.94,5,Nitrogen cycle,norb,0
+811,46_bin.56,5,Nitrogen cycle,norb,0
+812,43_bin.39,5,Nitrogen cycle,norb,0
+813,41_bin.76,5,Nitrogen cycle,norb,0
+814,25_bin.7,6,Nitrogen cycle,norb,0
+815,50_bin.1,6,Nitrogen cycle,norb,0
+816,45_bin.16,6,Nitrogen cycle,norb,0
+817,40_bin.5,6,Nitrogen cycle,norb,0
+818,34_bin.28,6,Nitrogen cycle,norb,0
+819,41_bin.38,7,Nitrogen cycle,norb,0
+1198,42_bin.21,1,Nitrogen cycle,nosz,1
+1199,31_bin.4,1,Nitrogen cycle,nosz,1
+1200,29_bin.35,1,Nitrogen cycle,nosz,1
+1201,46_bin.21,1,Nitrogen cycle,nosz,1
+1202,49_bin.10,1,Nitrogen cycle,nosz,1
+1203,24_bin.63,1,Nitrogen cycle,nosz,1
+1204,27_bin.15,1,Nitrogen cycle,nosz,1
+1205,28_bin.47,1,Nitrogen cycle,nosz,1
+1206,41_bin.32,1,Nitrogen cycle,nosz,1
+1207,37_bin.57,1,Nitrogen cycle,nosz,1
+1208,48_bin.50,1,Nitrogen cycle,nosz,1
+1209,32_bin.53,1,Nitrogen cycle,nosz,1
+1210,21_bin.47,1,Nitrogen cycle,nosz,1
+1211,43_bin.59,1,Nitrogen cycle,nosz,1
+1212,23_bin.50,1,Nitrogen cycle,nosz,1
+1213,39_bin.35,1,Nitrogen cycle,nosz,1
+1214,22_bin.14,1,Nitrogen cycle,nosz,1
+1215,36_bin.39,1,Nitrogen cycle,nosz,1
+1216,38_bin.9,1,Nitrogen cycle,nosz,1
+1217,26_bin.9,1,Nitrogen cycle,nosz,1
+1218,44_bin.50,1,Nitrogen cycle,nosz,1
+1219,34_bin.29,1,Nitrogen cycle,nosz,1
+1220,47_bin.30,1,Nitrogen cycle,nosz,1
+1221,31_bin.18,2,Nitrogen cycle,nosz,1
+1222,34_bin.2,2,Nitrogen cycle,nosz,1
+1223,28_bin.46,2,Nitrogen cycle,nosz,1
+1224,42_bin.6,2,Nitrogen cycle,nosz,1
+1225,24_bin.64,2,Nitrogen cycle,nosz,1
+1226,44_bin.41,2,Nitrogen cycle,nosz,1
+1227,43_bin.34,2,Nitrogen cycle,nosz,1
+1228,47_bin.61,2,Nitrogen cycle,nosz,1
+1229,48_bin.65,2,Nitrogen cycle,nosz,1
+1230,41_bin.35,2,Nitrogen cycle,nosz,1
+1231,21_bin.10,2,Nitrogen cycle,nosz,1
+1232,29_bin.53,2,Nitrogen cycle,nosz,1
+1233,36_bin.22,2,Nitrogen cycle,nosz,1
+1234,11_bin.53,2,Nitrogen cycle,nosz,1
+1235,39_bin.46,2,Nitrogen cycle,nosz,1
+1236,22_bin.5,2,Nitrogen cycle,nosz,1
+1237,44_bin.27,3,Nitrogen cycle,nosz,0
+1238,41_bin.37,3,Nitrogen cycle,nosz,0
+1239,29_bin.10,3,Nitrogen cycle,nosz,0
+1240,26_bin.35,3,Nitrogen cycle,nosz,0
+1241,46_bin.59,3,Nitrogen cycle,nosz,0
+1242,34_bin.7,3,Nitrogen cycle,nosz,0
+1243,36_bin.32,3,Nitrogen cycle,nosz,0
+1244,47_bin.64,3,Nitrogen cycle,nosz,0
+1245,49_bin.68,3,Nitrogen cycle,nosz,0
+1246,43_bin.28,3,Nitrogen cycle,nosz,0
+1247,29_bin.22,4,Nitrogen cycle,nosz,0
+1248,47_bin.13,4,Nitrogen cycle,nosz,0
+1249,24_bin.42,4,Nitrogen cycle,nosz,0
+1250,46_bin.73,4,Nitrogen cycle,nosz,0
+1251,49_bin.94,5,Nitrogen cycle,nosz,1
+1252,46_bin.56,5,Nitrogen cycle,nosz,0
+1253,43_bin.39,5,Nitrogen cycle,nosz,1
+1254,41_bin.76,5,Nitrogen cycle,nosz,1
+1255,25_bin.7,6,Nitrogen cycle,nosz,0
+1256,50_bin.1,6,Nitrogen cycle,nosz,0
+1257,45_bin.16,6,Nitrogen cycle,nosz,0
+1258,40_bin.5,6,Nitrogen cycle,nosz,0
+1259,34_bin.28,6,Nitrogen cycle,nosz,0
+1260,41_bin.38,7,Nitrogen cycle,nosz,0
+1261,42_bin.21,1,Nitrogen cycle,nrfa,0
+1262,31_bin.4,1,Nitrogen cycle,nrfa,0
+1263,29_bin.35,1,Nitrogen cycle,nrfa,0
+1264,46_bin.21,1,Nitrogen cycle,nrfa,0
+1265,49_bin.10,1,Nitrogen cycle,nrfa,0
+1266,24_bin.63,1,Nitrogen cycle,nrfa,0
+1267,27_bin.15,1,Nitrogen cycle,nrfa,0
+1268,28_bin.47,1,Nitrogen cycle,nrfa,0
+1269,41_bin.32,1,Nitrogen cycle,nrfa,0
+1270,37_bin.57,1,Nitrogen cycle,nrfa,0
+1271,48_bin.50,1,Nitrogen cycle,nrfa,0
+1272,32_bin.53,1,Nitrogen cycle,nrfa,0
+1273,21_bin.47,1,Nitrogen cycle,nrfa,0
+1274,43_bin.59,1,Nitrogen cycle,nrfa,0
+1275,23_bin.50,1,Nitrogen cycle,nrfa,0
+1276,39_bin.35,1,Nitrogen cycle,nrfa,0
+1277,22_bin.14,1,Nitrogen cycle,nrfa,0
+1278,36_bin.39,1,Nitrogen cycle,nrfa,0
+1279,38_bin.9,1,Nitrogen cycle,nrfa,0
+1280,26_bin.9,1,Nitrogen cycle,nrfa,0
+1281,44_bin.50,1,Nitrogen cycle,nrfa,0
+1282,34_bin.29,1,Nitrogen cycle,nrfa,0
+1283,47_bin.30,1,Nitrogen cycle,nrfa,0
+1284,31_bin.18,2,Nitrogen cycle,nrfa,0
+1285,34_bin.2,2,Nitrogen cycle,nrfa,0
+1286,28_bin.46,2,Nitrogen cycle,nrfa,0
+1287,42_bin.6,2,Nitrogen cycle,nrfa,0
+1288,24_bin.64,2,Nitrogen cycle,nrfa,0
+1289,44_bin.41,2,Nitrogen cycle,nrfa,0
+1290,43_bin.34,2,Nitrogen cycle,nrfa,0
+1291,47_bin.61,2,Nitrogen cycle,nrfa,0
+1292,48_bin.65,2,Nitrogen cycle,nrfa,0
+1293,41_bin.35,2,Nitrogen cycle,nrfa,0
+1294,21_bin.10,2,Nitrogen cycle,nrfa,0
+1295,29_bin.53,2,Nitrogen cycle,nrfa,0
+1296,36_bin.22,2,Nitrogen cycle,nrfa,0
+1297,11_bin.53,2,Nitrogen cycle,nrfa,0
+1298,39_bin.46,2,Nitrogen cycle,nrfa,0
+1299,22_bin.5,2,Nitrogen cycle,nrfa,0
+1300,44_bin.27,3,Nitrogen cycle,nrfa,1
+1301,41_bin.37,3,Nitrogen cycle,nrfa,1
+1302,29_bin.10,3,Nitrogen cycle,nrfa,1
+1303,26_bin.35,3,Nitrogen cycle,nrfa,1
+1304,46_bin.59,3,Nitrogen cycle,nrfa,1
+1305,34_bin.7,3,Nitrogen cycle,nrfa,1
+1306,36_bin.32,3,Nitrogen cycle,nrfa,1
+1307,47_bin.64,3,Nitrogen cycle,nrfa,1
+1308,49_bin.68,3,Nitrogen cycle,nrfa,1
+1309,43_bin.28,3,Nitrogen cycle,nrfa,1
+1310,29_bin.22,4,Nitrogen cycle,nrfa,0
+1311,47_bin.13,4,Nitrogen cycle,nrfa,0
+1312,24_bin.42,4,Nitrogen cycle,nrfa,0
+1313,46_bin.73,4,Nitrogen cycle,nrfa,0
+1314,49_bin.94,5,Nitrogen cycle,nrfa,0
+1315,46_bin.56,5,Nitrogen cycle,nrfa,0
+1316,43_bin.39,5,Nitrogen cycle,nrfa,0
+1317,41_bin.76,5,Nitrogen cycle,nrfa,0
+1318,25_bin.7,6,Nitrogen cycle,nrfa,0
+1319,50_bin.1,6,Nitrogen cycle,nrfa,0
+1320,45_bin.16,6,Nitrogen cycle,nrfa,0
+1321,40_bin.5,6,Nitrogen cycle,nrfa,0
+1322,34_bin.28,6,Nitrogen cycle,nrfa,0
+1323,41_bin.38,7,Nitrogen cycle,nrfa,1
+1324,42_bin.21,1,Nitrogen cycle,nxra,0
+1325,31_bin.4,1,Nitrogen cycle,nxra,0
+1326,29_bin.35,1,Nitrogen cycle,nxra,0
+1327,46_bin.21,1,Nitrogen cycle,nxra,0
+1328,49_bin.10,1,Nitrogen cycle,nxra,0
+1329,24_bin.63,1,Nitrogen cycle,nxra,0
+1330,27_bin.15,1,Nitrogen cycle,nxra,0
+1331,28_bin.47,1,Nitrogen cycle,nxra,0
+1332,41_bin.32,1,Nitrogen cycle,nxra,0
+1333,37_bin.57,1,Nitrogen cycle,nxra,0
+1334,48_bin.50,1,Nitrogen cycle,nxra,0
+1335,32_bin.53,1,Nitrogen cycle,nxra,0
+1336,21_bin.47,1,Nitrogen cycle,nxra,0
+1337,43_bin.59,1,Nitrogen cycle,nxra,0
+1338,23_bin.50,1,Nitrogen cycle,nxra,0
+1339,39_bin.35,1,Nitrogen cycle,nxra,0
+1340,22_bin.14,1,Nitrogen cycle,nxra,0
+1341,36_bin.39,1,Nitrogen cycle,nxra,0
+1342,38_bin.9,1,Nitrogen cycle,nxra,0
+1343,26_bin.9,1,Nitrogen cycle,nxra,0
+1344,44_bin.50,1,Nitrogen cycle,nxra,0
+1345,34_bin.29,1,Nitrogen cycle,nxra,0
+1346,47_bin.30,1,Nitrogen cycle,nxra,0
+1347,31_bin.18,2,Nitrogen cycle,nxra,0
+1348,34_bin.2,2,Nitrogen cycle,nxra,0
+1349,28_bin.46,2,Nitrogen cycle,nxra,0
+1350,42_bin.6,2,Nitrogen cycle,nxra,0
+1351,24_bin.64,2,Nitrogen cycle,nxra,0
+1352,44_bin.41,2,Nitrogen cycle,nxra,0
+1353,43_bin.34,2,Nitrogen cycle,nxra,0
+1354,47_bin.61,2,Nitrogen cycle,nxra,0
+1355,48_bin.65,2,Nitrogen cycle,nxra,0
+1356,41_bin.35,2,Nitrogen cycle,nxra,0
+1357,21_bin.10,2,Nitrogen cycle,nxra,0
+1358,29_bin.53,2,Nitrogen cycle,nxra,0
+1359,36_bin.22,2,Nitrogen cycle,nxra,0
+1360,11_bin.53,2,Nitrogen cycle,nxra,0
+1361,39_bin.46,2,Nitrogen cycle,nxra,0
+1362,22_bin.5,2,Nitrogen cycle,nxra,0
+1363,44_bin.27,3,Nitrogen cycle,nxra,0
+1364,41_bin.37,3,Nitrogen cycle,nxra,0
+1365,29_bin.10,3,Nitrogen cycle,nxra,0
+1366,26_bin.35,3,Nitrogen cycle,nxra,0
+1367,46_bin.59,3,Nitrogen cycle,nxra,0
+1368,34_bin.7,3,Nitrogen cycle,nxra,0
+1369,36_bin.32,3,Nitrogen cycle,nxra,0
+1370,47_bin.64,3,Nitrogen cycle,nxra,0
+1371,49_bin.68,3,Nitrogen cycle,nxra,0
+1372,43_bin.28,3,Nitrogen cycle,nxra,0
+1373,29_bin.22,4,Nitrogen cycle,nxra,0
+1374,47_bin.13,4,Nitrogen cycle,nxra,0
+1375,24_bin.42,4,Nitrogen cycle,nxra,0
+1376,46_bin.73,4,Nitrogen cycle,nxra,0
+1377,49_bin.94,5,Nitrogen cycle,nxra,0
+1378,46_bin.56,5,Nitrogen cycle,nxra,0
+1379,43_bin.39,5,Nitrogen cycle,nxra,0
+1380,41_bin.76,5,Nitrogen cycle,nxra,0
+1381,25_bin.7,6,Nitrogen cycle,nxra,0
+1382,50_bin.1,6,Nitrogen cycle,nxra,0
+1383,45_bin.16,6,Nitrogen cycle,nxra,0
+1384,40_bin.5,6,Nitrogen cycle,nxra,0
+1385,34_bin.28,6,Nitrogen cycle,nxra,0
+1386,41_bin.38,7,Nitrogen cycle,nxra,0
+1576,42_bin.21,1,Phosphonate metabolism,pepm,0
+1577,31_bin.4,1,Phosphonate metabolism,pepm,0
+1578,29_bin.35,1,Phosphonate metabolism,pepm,0
+1579,46_bin.21,1,Phosphonate metabolism,pepm,0
+1580,49_bin.10,1,Phosphonate metabolism,pepm,0
+1581,24_bin.63,1,Phosphonate metabolism,pepm,0
+1582,27_bin.15,1,Phosphonate metabolism,pepm,0
+1583,28_bin.47,1,Phosphonate metabolism,pepm,0
+1584,41_bin.32,1,Phosphonate metabolism,pepm,0
+1585,37_bin.57,1,Phosphonate metabolism,pepm,0
+1586,48_bin.50,1,Phosphonate metabolism,pepm,0
+1587,32_bin.53,1,Phosphonate metabolism,pepm,0
+1588,21_bin.47,1,Phosphonate metabolism,pepm,0
+1589,43_bin.59,1,Phosphonate metabolism,pepm,0
+1590,23_bin.50,1,Phosphonate metabolism,pepm,0
+1591,39_bin.35,1,Phosphonate metabolism,pepm,0
+1592,22_bin.14,1,Phosphonate metabolism,pepm,0
+1593,36_bin.39,1,Phosphonate metabolism,pepm,0
+1594,38_bin.9,1,Phosphonate metabolism,pepm,0
+1595,26_bin.9,1,Phosphonate metabolism,pepm,0
+1596,44_bin.50,1,Phosphonate metabolism,pepm,0
+1597,34_bin.29,1,Phosphonate metabolism,pepm,0
+1598,47_bin.30,1,Phosphonate metabolism,pepm,0
+1599,31_bin.18,2,Phosphonate metabolism,pepm,0
+1600,34_bin.2,2,Phosphonate metabolism,pepm,0
+1601,28_bin.46,2,Phosphonate metabolism,pepm,0
+1602,42_bin.6,2,Phosphonate metabolism,pepm,0
+1603,24_bin.64,2,Phosphonate metabolism,pepm,0
+1604,44_bin.41,2,Phosphonate metabolism,pepm,0
+1605,43_bin.34,2,Phosphonate metabolism,pepm,0
+1606,47_bin.61,2,Phosphonate metabolism,pepm,0
+1607,48_bin.65,2,Phosphonate metabolism,pepm,0
+1608,41_bin.35,2,Phosphonate metabolism,pepm,0
+1609,21_bin.10,2,Phosphonate metabolism,pepm,0
+1610,29_bin.53,2,Phosphonate metabolism,pepm,0
+1611,36_bin.22,2,Phosphonate metabolism,pepm,0
+1612,11_bin.53,2,Phosphonate metabolism,pepm,0
+1613,39_bin.46,2,Phosphonate metabolism,pepm,0
+1614,22_bin.5,2,Phosphonate metabolism,pepm,0
+1615,44_bin.27,3,Phosphonate metabolism,pepm,0
+1616,41_bin.37,3,Phosphonate metabolism,pepm,0
+1617,29_bin.10,3,Phosphonate metabolism,pepm,0
+1618,26_bin.35,3,Phosphonate metabolism,pepm,0
+1619,46_bin.59,3,Phosphonate metabolism,pepm,0
+1620,34_bin.7,3,Phosphonate metabolism,pepm,0
+1621,36_bin.32,3,Phosphonate metabolism,pepm,0
+1622,47_bin.64,3,Phosphonate metabolism,pepm,0
+1623,49_bin.68,3,Phosphonate metabolism,pepm,0
+1624,43_bin.28,3,Phosphonate metabolism,pepm,0
+1625,29_bin.22,4,Phosphonate metabolism,pepm,0
+1626,47_bin.13,4,Phosphonate metabolism,pepm,0
+1627,24_bin.42,4,Phosphonate metabolism,pepm,0
+1628,46_bin.73,4,Phosphonate metabolism,pepm,0
+1629,49_bin.94,5,Phosphonate metabolism,pepm,0
+1630,46_bin.56,5,Phosphonate metabolism,pepm,0
+1631,43_bin.39,5,Phosphonate metabolism,pepm,0
+1632,41_bin.76,5,Phosphonate metabolism,pepm,0
+1633,25_bin.7,6,Phosphonate metabolism,pepm,0
+1634,50_bin.1,6,Phosphonate metabolism,pepm,0
+1635,45_bin.16,6,Phosphonate metabolism,pepm,0
+1636,40_bin.5,6,Phosphonate metabolism,pepm,0
+1637,34_bin.28,6,Phosphonate metabolism,pepm,0
+1638,41_bin.38,7,Phosphonate metabolism,pepm,0
+1639,42_bin.21,1,Phosphonate metabolism,phna,0
+1640,31_bin.4,1,Phosphonate metabolism,phna,0
+1641,29_bin.35,1,Phosphonate metabolism,phna,0
+1642,46_bin.21,1,Phosphonate metabolism,phna,0
+1643,49_bin.10,1,Phosphonate metabolism,phna,0
+1644,24_bin.63,1,Phosphonate metabolism,phna,0
+1645,27_bin.15,1,Phosphonate metabolism,phna,0
+1646,28_bin.47,1,Phosphonate metabolism,phna,0
+1647,41_bin.32,1,Phosphonate metabolism,phna,0
+1648,37_bin.57,1,Phosphonate metabolism,phna,0
+1649,48_bin.50,1,Phosphonate metabolism,phna,0
+1650,32_bin.53,1,Phosphonate metabolism,phna,0
+1651,21_bin.47,1,Phosphonate metabolism,phna,0
+1652,43_bin.59,1,Phosphonate metabolism,phna,0
+1653,23_bin.50,1,Phosphonate metabolism,phna,0
+1654,39_bin.35,1,Phosphonate metabolism,phna,0
+1655,22_bin.14,1,Phosphonate metabolism,phna,0
+1656,36_bin.39,1,Phosphonate metabolism,phna,0
+1657,38_bin.9,1,Phosphonate metabolism,phna,0
+1658,26_bin.9,1,Phosphonate metabolism,phna,0
+1659,44_bin.50,1,Phosphonate metabolism,phna,0
+1660,34_bin.29,1,Phosphonate metabolism,phna,0
+1661,47_bin.30,1,Phosphonate metabolism,phna,0
+1662,31_bin.18,2,Phosphonate metabolism,phna,0
+1663,34_bin.2,2,Phosphonate metabolism,phna,0
+1664,28_bin.46,2,Phosphonate metabolism,phna,0
+1665,42_bin.6,2,Phosphonate metabolism,phna,0
+1666,24_bin.64,2,Phosphonate metabolism,phna,0
+1667,44_bin.41,2,Phosphonate metabolism,phna,0
+1668,43_bin.34,2,Phosphonate metabolism,phna,0
+1669,47_bin.61,2,Phosphonate metabolism,phna,0
+1670,48_bin.65,2,Phosphonate metabolism,phna,0
+1671,41_bin.35,2,Phosphonate metabolism,phna,0
+1672,21_bin.10,2,Phosphonate metabolism,phna,0
+1673,29_bin.53,2,Phosphonate metabolism,phna,0
+1674,36_bin.22,2,Phosphonate metabolism,phna,0
+1675,11_bin.53,2,Phosphonate metabolism,phna,0
+1676,39_bin.46,2,Phosphonate metabolism,phna,0
+1677,22_bin.5,2,Phosphonate metabolism,phna,0
+1678,44_bin.27,3,Phosphonate metabolism,phna,0
+1679,41_bin.37,3,Phosphonate metabolism,phna,0
+1680,29_bin.10,3,Phosphonate metabolism,phna,0
+1681,26_bin.35,3,Phosphonate metabolism,phna,0
+1682,46_bin.59,3,Phosphonate metabolism,phna,0
+1683,34_bin.7,3,Phosphonate metabolism,phna,0
+1684,36_bin.32,3,Phosphonate metabolism,phna,0
+1685,47_bin.64,3,Phosphonate metabolism,phna,0
+1686,49_bin.68,3,Phosphonate metabolism,phna,0
+1687,43_bin.28,3,Phosphonate metabolism,phna,0
+1688,29_bin.22,4,Phosphonate metabolism,phna,0
+1689,47_bin.13,4,Phosphonate metabolism,phna,0
+1690,24_bin.42,4,Phosphonate metabolism,phna,0
+1691,46_bin.73,4,Phosphonate metabolism,phna,0
+1692,49_bin.94,5,Phosphonate metabolism,phna,0
+1693,46_bin.56,5,Phosphonate metabolism,phna,0
+1694,43_bin.39,5,Phosphonate metabolism,phna,0
+1695,41_bin.76,5,Phosphonate metabolism,phna,0
+1696,25_bin.7,6,Phosphonate metabolism,phna,0
+1697,50_bin.1,6,Phosphonate metabolism,phna,0
+1698,45_bin.16,6,Phosphonate metabolism,phna,0
+1699,40_bin.5,6,Phosphonate metabolism,phna,0
+1700,34_bin.28,6,Phosphonate metabolism,phna,0
+1701,41_bin.38,7,Phosphonate metabolism,phna,0
+1702,42_bin.21,1,Phosphonate metabolism,phni,0
+1703,31_bin.4,1,Phosphonate metabolism,phni,0
+1704,29_bin.35,1,Phosphonate metabolism,phni,0
+1705,46_bin.21,1,Phosphonate metabolism,phni,0
+1706,49_bin.10,1,Phosphonate metabolism,phni,0
+1707,24_bin.63,1,Phosphonate metabolism,phni,0
+1708,27_bin.15,1,Phosphonate metabolism,phni,0
+1709,28_bin.47,1,Phosphonate metabolism,phni,0
+1710,41_bin.32,1,Phosphonate metabolism,phni,0
+1711,37_bin.57,1,Phosphonate metabolism,phni,0
+1712,48_bin.50,1,Phosphonate metabolism,phni,0
+1713,32_bin.53,1,Phosphonate metabolism,phni,0
+1714,21_bin.47,1,Phosphonate metabolism,phni,0
+1715,43_bin.59,1,Phosphonate metabolism,phni,0
+1716,23_bin.50,1,Phosphonate metabolism,phni,0
+1717,39_bin.35,1,Phosphonate metabolism,phni,0
+1718,22_bin.14,1,Phosphonate metabolism,phni,0
+1719,36_bin.39,1,Phosphonate metabolism,phni,0
+1720,38_bin.9,1,Phosphonate metabolism,phni,0
+1721,26_bin.9,1,Phosphonate metabolism,phni,0
+1722,44_bin.50,1,Phosphonate metabolism,phni,0
+1723,34_bin.29,1,Phosphonate metabolism,phni,0
+1724,47_bin.30,1,Phosphonate metabolism,phni,0
+1725,31_bin.18,2,Phosphonate metabolism,phni,0
+1726,34_bin.2,2,Phosphonate metabolism,phni,0
+1727,28_bin.46,2,Phosphonate metabolism,phni,0
+1728,42_bin.6,2,Phosphonate metabolism,phni,0
+1729,24_bin.64,2,Phosphonate metabolism,phni,0
+1730,44_bin.41,2,Phosphonate metabolism,phni,0
+1731,43_bin.34,2,Phosphonate metabolism,phni,0
+1732,47_bin.61,2,Phosphonate metabolism,phni,0
+1733,48_bin.65,2,Phosphonate metabolism,phni,0
+1734,41_bin.35,2,Phosphonate metabolism,phni,0
+1735,21_bin.10,2,Phosphonate metabolism,phni,0
+1736,29_bin.53,2,Phosphonate metabolism,phni,0
+1737,36_bin.22,2,Phosphonate metabolism,phni,0
+1738,11_bin.53,2,Phosphonate metabolism,phni,0
+1739,39_bin.46,2,Phosphonate metabolism,phni,0
+1740,22_bin.5,2,Phosphonate metabolism,phni,0
+1741,44_bin.27,3,Phosphonate metabolism,phni,0
+1742,41_bin.37,3,Phosphonate metabolism,phni,0
+1743,29_bin.10,3,Phosphonate metabolism,phni,0
+1744,26_bin.35,3,Phosphonate metabolism,phni,0
+1745,46_bin.59,3,Phosphonate metabolism,phni,0
+1746,34_bin.7,3,Phosphonate metabolism,phni,0
+1747,36_bin.32,3,Phosphonate metabolism,phni,0
+1748,47_bin.64,3,Phosphonate metabolism,phni,0
+1749,49_bin.68,3,Phosphonate metabolism,phni,0
+1750,43_bin.28,3,Phosphonate metabolism,phni,0
+1751,29_bin.22,4,Phosphonate metabolism,phni,0
+1752,47_bin.13,4,Phosphonate metabolism,phni,0
+1753,24_bin.42,4,Phosphonate metabolism,phni,0
+1754,46_bin.73,4,Phosphonate metabolism,phni,0
+1755,49_bin.94,5,Phosphonate metabolism,phni,0
+1756,46_bin.56,5,Phosphonate metabolism,phni,0
+1757,43_bin.39,5,Phosphonate metabolism,phni,0
+1758,41_bin.76,5,Phosphonate metabolism,phni,0
+1759,25_bin.7,6,Phosphonate metabolism,phni,0
+1760,50_bin.1,6,Phosphonate metabolism,phni,0
+1761,45_bin.16,6,Phosphonate metabolism,phni,0
+1762,40_bin.5,6,Phosphonate metabolism,phni,0
+1763,34_bin.28,6,Phosphonate metabolism,phni,0
+1764,41_bin.38,7,Phosphonate metabolism,phni,0
+1765,42_bin.21,1,Phosphonate metabolism,phnj,0
+1766,31_bin.4,1,Phosphonate metabolism,phnj,0
+1767,29_bin.35,1,Phosphonate metabolism,phnj,0
+1768,46_bin.21,1,Phosphonate metabolism,phnj,0
+1769,49_bin.10,1,Phosphonate metabolism,phnj,0
+1770,24_bin.63,1,Phosphonate metabolism,phnj,0
+1771,27_bin.15,1,Phosphonate metabolism,phnj,0
+1772,28_bin.47,1,Phosphonate metabolism,phnj,0
+1773,41_bin.32,1,Phosphonate metabolism,phnj,0
+1774,37_bin.57,1,Phosphonate metabolism,phnj,0
+1775,48_bin.50,1,Phosphonate metabolism,phnj,0
+1776,32_bin.53,1,Phosphonate metabolism,phnj,0
+1777,21_bin.47,1,Phosphonate metabolism,phnj,0
+1778,43_bin.59,1,Phosphonate metabolism,phnj,0
+1779,23_bin.50,1,Phosphonate metabolism,phnj,0
+1780,39_bin.35,1,Phosphonate metabolism,phnj,0
+1781,22_bin.14,1,Phosphonate metabolism,phnj,0
+1782,36_bin.39,1,Phosphonate metabolism,phnj,0
+1783,38_bin.9,1,Phosphonate metabolism,phnj,0
+1784,26_bin.9,1,Phosphonate metabolism,phnj,0
+1785,44_bin.50,1,Phosphonate metabolism,phnj,0
+1786,34_bin.29,1,Phosphonate metabolism,phnj,0
+1787,47_bin.30,1,Phosphonate metabolism,phnj,0
+1788,31_bin.18,2,Phosphonate metabolism,phnj,0
+1789,34_bin.2,2,Phosphonate metabolism,phnj,0
+1790,28_bin.46,2,Phosphonate metabolism,phnj,0
+1791,42_bin.6,2,Phosphonate metabolism,phnj,0
+1792,24_bin.64,2,Phosphonate metabolism,phnj,0
+1793,44_bin.41,2,Phosphonate metabolism,phnj,0
+1794,43_bin.34,2,Phosphonate metabolism,phnj,0
+1795,47_bin.61,2,Phosphonate metabolism,phnj,0
+1796,48_bin.65,2,Phosphonate metabolism,phnj,0
+1797,41_bin.35,2,Phosphonate metabolism,phnj,0
+1798,21_bin.10,2,Phosphonate metabolism,phnj,0
+1799,29_bin.53,2,Phosphonate metabolism,phnj,0
+1800,36_bin.22,2,Phosphonate metabolism,phnj,0
+1801,11_bin.53,2,Phosphonate metabolism,phnj,0
+1802,39_bin.46,2,Phosphonate metabolism,phnj,0
+1803,22_bin.5,2,Phosphonate metabolism,phnj,0
+1804,44_bin.27,3,Phosphonate metabolism,phnj,0
+1805,41_bin.37,3,Phosphonate metabolism,phnj,0
+1806,29_bin.10,3,Phosphonate metabolism,phnj,0
+1807,26_bin.35,3,Phosphonate metabolism,phnj,0
+1808,46_bin.59,3,Phosphonate metabolism,phnj,0
+1809,34_bin.7,3,Phosphonate metabolism,phnj,0
+1810,36_bin.32,3,Phosphonate metabolism,phnj,0
+1811,47_bin.64,3,Phosphonate metabolism,phnj,0
+1812,49_bin.68,3,Phosphonate metabolism,phnj,0
+1813,43_bin.28,3,Phosphonate metabolism,phnj,0
+1814,29_bin.22,4,Phosphonate metabolism,phnj,0
+1815,47_bin.13,4,Phosphonate metabolism,phnj,0
+1816,24_bin.42,4,Phosphonate metabolism,phnj,0
+1817,46_bin.73,4,Phosphonate metabolism,phnj,0
+1818,49_bin.94,5,Phosphonate metabolism,phnj,0
+1819,46_bin.56,5,Phosphonate metabolism,phnj,0
+1820,43_bin.39,5,Phosphonate metabolism,phnj,0
+1821,41_bin.76,5,Phosphonate metabolism,phnj,0
+1822,25_bin.7,6,Phosphonate metabolism,phnj,0
+1823,50_bin.1,6,Phosphonate metabolism,phnj,0
+1824,45_bin.16,6,Phosphonate metabolism,phnj,0
+1825,40_bin.5,6,Phosphonate metabolism,phnj,0
+1826,34_bin.28,6,Phosphonate metabolism,phnj,0
+1827,41_bin.38,7,Phosphonate metabolism,phnj,0
+1828,42_bin.21,1,Phosphonate metabolism,phnw,1
+1829,31_bin.4,1,Phosphonate metabolism,phnw,1
+1830,29_bin.35,1,Phosphonate metabolism,phnw,1
+1831,46_bin.21,1,Phosphonate metabolism,phnw,1
+1832,49_bin.10,1,Phosphonate metabolism,phnw,1
+1833,24_bin.63,1,Phosphonate metabolism,phnw,1
+1834,27_bin.15,1,Phosphonate metabolism,phnw,1
+1835,28_bin.47,1,Phosphonate metabolism,phnw,1
+1836,41_bin.32,1,Phosphonate metabolism,phnw,1
+1837,37_bin.57,1,Phosphonate metabolism,phnw,1
+1838,48_bin.50,1,Phosphonate metabolism,phnw,0
+1839,32_bin.53,1,Phosphonate metabolism,phnw,1
+1840,21_bin.47,1,Phosphonate metabolism,phnw,1
+1841,43_bin.59,1,Phosphonate metabolism,phnw,0
+1842,23_bin.50,1,Phosphonate metabolism,phnw,1
+1843,39_bin.35,1,Phosphonate metabolism,phnw,0
+1844,22_bin.14,1,Phosphonate metabolism,phnw,1
+1845,36_bin.39,1,Phosphonate metabolism,phnw,1
+1846,38_bin.9,1,Phosphonate metabolism,phnw,1
+1847,26_bin.9,1,Phosphonate metabolism,phnw,1
+1848,44_bin.50,1,Phosphonate metabolism,phnw,1
+1849,34_bin.29,1,Phosphonate metabolism,phnw,1
+1850,47_bin.30,1,Phosphonate metabolism,phnw,0
+1851,31_bin.18,2,Phosphonate metabolism,phnw,1
+1852,34_bin.2,2,Phosphonate metabolism,phnw,1
+1853,28_bin.46,2,Phosphonate metabolism,phnw,1
+1854,42_bin.6,2,Phosphonate metabolism,phnw,1
+1855,24_bin.64,2,Phosphonate metabolism,phnw,1
+1856,44_bin.41,2,Phosphonate metabolism,phnw,1
+1857,43_bin.34,2,Phosphonate metabolism,phnw,1
+1858,47_bin.61,2,Phosphonate metabolism,phnw,1
+1859,48_bin.65,2,Phosphonate metabolism,phnw,1
+1860,41_bin.35,2,Phosphonate metabolism,phnw,1
+1861,21_bin.10,2,Phosphonate metabolism,phnw,1
+1862,29_bin.53,2,Phosphonate metabolism,phnw,1
+1863,36_bin.22,2,Phosphonate metabolism,phnw,1
+1864,11_bin.53,2,Phosphonate metabolism,phnw,1
+1865,39_bin.46,2,Phosphonate metabolism,phnw,1
+1866,22_bin.5,2,Phosphonate metabolism,phnw,1
+1867,44_bin.27,3,Phosphonate metabolism,phnw,1
+1868,41_bin.37,3,Phosphonate metabolism,phnw,1
+1869,29_bin.10,3,Phosphonate metabolism,phnw,1
+1870,26_bin.35,3,Phosphonate metabolism,phnw,1
+1871,46_bin.59,3,Phosphonate metabolism,phnw,1
+1872,34_bin.7,3,Phosphonate metabolism,phnw,1
+1873,36_bin.32,3,Phosphonate metabolism,phnw,1
+1874,47_bin.64,3,Phosphonate metabolism,phnw,1
+1875,49_bin.68,3,Phosphonate metabolism,phnw,1
+1876,43_bin.28,3,Phosphonate metabolism,phnw,1
+1877,29_bin.22,4,Phosphonate metabolism,phnw,0
+1878,47_bin.13,4,Phosphonate metabolism,phnw,0
+1879,24_bin.42,4,Phosphonate metabolism,phnw,0
+1880,46_bin.73,4,Phosphonate metabolism,phnw,0
+1881,49_bin.94,5,Phosphonate metabolism,phnw,1
+1882,46_bin.56,5,Phosphonate metabolism,phnw,1
+1883,43_bin.39,5,Phosphonate metabolism,phnw,1
+1884,41_bin.76,5,Phosphonate metabolism,phnw,1
+1885,25_bin.7,6,Phosphonate metabolism,phnw,1
+1886,50_bin.1,6,Phosphonate metabolism,phnw,1
+1887,45_bin.16,6,Phosphonate metabolism,phnw,1
+1888,40_bin.5,6,Phosphonate metabolism,phnw,1
+1889,34_bin.28,6,Phosphonate metabolism,phnw,1
+1890,41_bin.38,7,Phosphonate metabolism,phnw,1
+1891,42_bin.21,1,Phosphonate metabolism,phnx,0
+1892,31_bin.4,1,Phosphonate metabolism,phnx,0
+1893,29_bin.35,1,Phosphonate metabolism,phnx,0
+1894,46_bin.21,1,Phosphonate metabolism,phnx,0
+1895,49_bin.10,1,Phosphonate metabolism,phnx,0
+1896,24_bin.63,1,Phosphonate metabolism,phnx,0
+1897,27_bin.15,1,Phosphonate metabolism,phnx,0
+1898,28_bin.47,1,Phosphonate metabolism,phnx,0
+1899,41_bin.32,1,Phosphonate metabolism,phnx,0
+1900,37_bin.57,1,Phosphonate metabolism,phnx,0
+1901,48_bin.50,1,Phosphonate metabolism,phnx,0
+1902,32_bin.53,1,Phosphonate metabolism,phnx,0
+1903,21_bin.47,1,Phosphonate metabolism,phnx,0
+1904,43_bin.59,1,Phosphonate metabolism,phnx,0
+1905,23_bin.50,1,Phosphonate metabolism,phnx,0
+1906,39_bin.35,1,Phosphonate metabolism,phnx,0
+1907,22_bin.14,1,Phosphonate metabolism,phnx,0
+1908,36_bin.39,1,Phosphonate metabolism,phnx,0
+1909,38_bin.9,1,Phosphonate metabolism,phnx,0
+1910,26_bin.9,1,Phosphonate metabolism,phnx,0
+1911,44_bin.50,1,Phosphonate metabolism,phnx,0
+1912,34_bin.29,1,Phosphonate metabolism,phnx,0
+1913,47_bin.30,1,Phosphonate metabolism,phnx,0
+1914,31_bin.18,2,Phosphonate metabolism,phnx,0
+1915,34_bin.2,2,Phosphonate metabolism,phnx,0
+1916,28_bin.46,2,Phosphonate metabolism,phnx,0
+1917,42_bin.6,2,Phosphonate metabolism,phnx,0
+1918,24_bin.64,2,Phosphonate metabolism,phnx,0
+1919,44_bin.41,2,Phosphonate metabolism,phnx,0
+1920,43_bin.34,2,Phosphonate metabolism,phnx,0
+1921,47_bin.61,2,Phosphonate metabolism,phnx,0
+1922,48_bin.65,2,Phosphonate metabolism,phnx,0
+1923,41_bin.35,2,Phosphonate metabolism,phnx,0
+1924,21_bin.10,2,Phosphonate metabolism,phnx,0
+1925,29_bin.53,2,Phosphonate metabolism,phnx,0
+1926,36_bin.22,2,Phosphonate metabolism,phnx,0
+1927,11_bin.53,2,Phosphonate metabolism,phnx,0
+1928,39_bin.46,2,Phosphonate metabolism,phnx,0
+1929,22_bin.5,2,Phosphonate metabolism,phnx,0
+1930,44_bin.27,3,Phosphonate metabolism,phnx,0
+1931,41_bin.37,3,Phosphonate metabolism,phnx,0
+1932,29_bin.10,3,Phosphonate metabolism,phnx,0
+1933,26_bin.35,3,Phosphonate metabolism,phnx,0
+1934,46_bin.59,3,Phosphonate metabolism,phnx,0
+1935,34_bin.7,3,Phosphonate metabolism,phnx,0
+1936,36_bin.32,3,Phosphonate metabolism,phnx,0
+1937,47_bin.64,3,Phosphonate metabolism,phnx,0
+1938,49_bin.68,3,Phosphonate metabolism,phnx,0
+1939,43_bin.28,3,Phosphonate metabolism,phnx,0
+1940,29_bin.22,4,Phosphonate metabolism,phnx,0
+1941,47_bin.13,4,Phosphonate metabolism,phnx,0
+1942,24_bin.42,4,Phosphonate metabolism,phnx,0
+1943,46_bin.73,4,Phosphonate metabolism,phnx,0
+1944,49_bin.94,5,Phosphonate metabolism,phnx,0
+1945,46_bin.56,5,Phosphonate metabolism,phnx,0
+1946,43_bin.39,5,Phosphonate metabolism,phnx,0
+1947,41_bin.76,5,Phosphonate metabolism,phnx,0
+1948,25_bin.7,6,Phosphonate metabolism,phnx,0
+1949,50_bin.1,6,Phosphonate metabolism,phnx,0
+1950,45_bin.16,6,Phosphonate metabolism,phnx,0
+1951,40_bin.5,6,Phosphonate metabolism,phnx,0
+1952,34_bin.28,6,Phosphonate metabolism,phnx,0
+1953,41_bin.38,7,Phosphonate metabolism,phnx,0
+1954,42_bin.21,1,Phosphonate metabolism,phnz,0
+1955,31_bin.4,1,Phosphonate metabolism,phnz,0
+1956,29_bin.35,1,Phosphonate metabolism,phnz,0
+1957,46_bin.21,1,Phosphonate metabolism,phnz,0
+1958,49_bin.10,1,Phosphonate metabolism,phnz,0
+1959,24_bin.63,1,Phosphonate metabolism,phnz,0
+1960,27_bin.15,1,Phosphonate metabolism,phnz,0
+1961,28_bin.47,1,Phosphonate metabolism,phnz,0
+1962,41_bin.32,1,Phosphonate metabolism,phnz,0
+1963,37_bin.57,1,Phosphonate metabolism,phnz,0
+1964,48_bin.50,1,Phosphonate metabolism,phnz,0
+1965,32_bin.53,1,Phosphonate metabolism,phnz,0
+1966,21_bin.47,1,Phosphonate metabolism,phnz,0
+1967,43_bin.59,1,Phosphonate metabolism,phnz,0
+1968,23_bin.50,1,Phosphonate metabolism,phnz,0
+1969,39_bin.35,1,Phosphonate metabolism,phnz,0
+1970,22_bin.14,1,Phosphonate metabolism,phnz,0
+1971,36_bin.39,1,Phosphonate metabolism,phnz,0
+1972,38_bin.9,1,Phosphonate metabolism,phnz,0
+1973,26_bin.9,1,Phosphonate metabolism,phnz,0
+1974,44_bin.50,1,Phosphonate metabolism,phnz,0
+1975,34_bin.29,1,Phosphonate metabolism,phnz,0
+1976,47_bin.30,1,Phosphonate metabolism,phnz,0
+1977,31_bin.18,2,Phosphonate metabolism,phnz,0
+1978,34_bin.2,2,Phosphonate metabolism,phnz,0
+1979,28_bin.46,2,Phosphonate metabolism,phnz,0
+1980,42_bin.6,2,Phosphonate metabolism,phnz,0
+1981,24_bin.64,2,Phosphonate metabolism,phnz,0
+1982,44_bin.41,2,Phosphonate metabolism,phnz,0
+1983,43_bin.34,2,Phosphonate metabolism,phnz,0
+1984,47_bin.61,2,Phosphonate metabolism,phnz,0
+1985,48_bin.65,2,Phosphonate metabolism,phnz,0
+1986,41_bin.35,2,Phosphonate metabolism,phnz,0
+1987,21_bin.10,2,Phosphonate metabolism,phnz,0
+1988,29_bin.53,2,Phosphonate metabolism,phnz,0
+1989,36_bin.22,2,Phosphonate metabolism,phnz,0
+1990,11_bin.53,2,Phosphonate metabolism,phnz,0
+1991,39_bin.46,2,Phosphonate metabolism,phnz,0
+1992,22_bin.5,2,Phosphonate metabolism,phnz,0
+1993,44_bin.27,3,Phosphonate metabolism,phnz,0
+1994,41_bin.37,3,Phosphonate metabolism,phnz,0
+1995,29_bin.10,3,Phosphonate metabolism,phnz,0
+1996,26_bin.35,3,Phosphonate metabolism,phnz,0
+1997,46_bin.59,3,Phosphonate metabolism,phnz,0
+1998,34_bin.7,3,Phosphonate metabolism,phnz,0
+1999,36_bin.32,3,Phosphonate metabolism,phnz,0
+2000,47_bin.64,3,Phosphonate metabolism,phnz,0
+2001,49_bin.68,3,Phosphonate metabolism,phnz,0
+2002,43_bin.28,3,Phosphonate metabolism,phnz,0
+2003,29_bin.22,4,Phosphonate metabolism,phnz,0
+2004,47_bin.13,4,Phosphonate metabolism,phnz,0
+2005,24_bin.42,4,Phosphonate metabolism,phnz,0
+2006,46_bin.73,4,Phosphonate metabolism,phnz,0
+2007,49_bin.94,5,Phosphonate metabolism,phnz,0
+2008,46_bin.56,5,Phosphonate metabolism,phnz,0
+2009,43_bin.39,5,Phosphonate metabolism,phnz,0
+2010,41_bin.76,5,Phosphonate metabolism,phnz,0
+2011,25_bin.7,6,Phosphonate metabolism,phnz,0
+2012,50_bin.1,6,Phosphonate metabolism,phnz,0
+2013,45_bin.16,6,Phosphonate metabolism,phnz,0
+2014,40_bin.5,6,Phosphonate metabolism,phnz,0
+2015,34_bin.28,6,Phosphonate metabolism,phnz,0
+2016,41_bin.38,7,Phosphonate metabolism,phnz,0
+1387,42_bin.21,1,Phosphate Metabolism,phoa,0
+1388,31_bin.4,1,Phosphate Metabolism,phoa,0
+1389,29_bin.35,1,Phosphate Metabolism,phoa,0
+1390,46_bin.21,1,Phosphate Metabolism,phoa,0
+1391,49_bin.10,1,Phosphate Metabolism,phoa,0
+1392,24_bin.63,1,Phosphate Metabolism,phoa,0
+1393,27_bin.15,1,Phosphate Metabolism,phoa,0
+1394,28_bin.47,1,Phosphate Metabolism,phoa,0
+1395,41_bin.32,1,Phosphate Metabolism,phoa,0
+1396,37_bin.57,1,Phosphate Metabolism,phoa,0
+1397,48_bin.50,1,Phosphate Metabolism,phoa,0
+1398,32_bin.53,1,Phosphate Metabolism,phoa,0
+1399,21_bin.47,1,Phosphate Metabolism,phoa,0
+1400,43_bin.59,1,Phosphate Metabolism,phoa,0
+1401,23_bin.50,1,Phosphate Metabolism,phoa,0
+1402,39_bin.35,1,Phosphate Metabolism,phoa,0
+1403,22_bin.14,1,Phosphate Metabolism,phoa,0
+1404,36_bin.39,1,Phosphate Metabolism,phoa,0
+1405,38_bin.9,1,Phosphate Metabolism,phoa,0
+1406,26_bin.9,1,Phosphate Metabolism,phoa,0
+1407,44_bin.50,1,Phosphate Metabolism,phoa,0
+1408,34_bin.29,1,Phosphate Metabolism,phoa,0
+1409,47_bin.30,1,Phosphate Metabolism,phoa,0
+1410,31_bin.18,2,Phosphate Metabolism,phoa,0
+1411,34_bin.2,2,Phosphate Metabolism,phoa,0
+1412,28_bin.46,2,Phosphate Metabolism,phoa,0
+1413,42_bin.6,2,Phosphate Metabolism,phoa,0
+1414,24_bin.64,2,Phosphate Metabolism,phoa,0
+1415,44_bin.41,2,Phosphate Metabolism,phoa,0
+1416,43_bin.34,2,Phosphate Metabolism,phoa,0
+1417,47_bin.61,2,Phosphate Metabolism,phoa,0
+1418,48_bin.65,2,Phosphate Metabolism,phoa,0
+1419,41_bin.35,2,Phosphate Metabolism,phoa,0
+1420,21_bin.10,2,Phosphate Metabolism,phoa,0
+1421,29_bin.53,2,Phosphate Metabolism,phoa,0
+1422,36_bin.22,2,Phosphate Metabolism,phoa,0
+1423,11_bin.53,2,Phosphate Metabolism,phoa,0
+1424,39_bin.46,2,Phosphate Metabolism,phoa,0
+1425,22_bin.5,2,Phosphate Metabolism,phoa,0
+1426,44_bin.27,3,Phosphate Metabolism,phoa,0
+1427,41_bin.37,3,Phosphate Metabolism,phoa,0
+1428,29_bin.10,3,Phosphate Metabolism,phoa,0
+1429,26_bin.35,3,Phosphate Metabolism,phoa,0
+1430,46_bin.59,3,Phosphate Metabolism,phoa,0
+1431,34_bin.7,3,Phosphate Metabolism,phoa,0
+1432,36_bin.32,3,Phosphate Metabolism,phoa,0
+1433,47_bin.64,3,Phosphate Metabolism,phoa,0
+1434,49_bin.68,3,Phosphate Metabolism,phoa,0
+1435,43_bin.28,3,Phosphate Metabolism,phoa,0
+1436,29_bin.22,4,Phosphate Metabolism,phoa,0
+1437,47_bin.13,4,Phosphate Metabolism,phoa,0
+1438,24_bin.42,4,Phosphate Metabolism,phoa,0
+1439,46_bin.73,4,Phosphate Metabolism,phoa,0
+1440,49_bin.94,5,Phosphate Metabolism,phoa,0
+1441,46_bin.56,5,Phosphate Metabolism,phoa,0
+1442,43_bin.39,5,Phosphate Metabolism,phoa,0
+1443,41_bin.76,5,Phosphate Metabolism,phoa,0
+1444,25_bin.7,6,Phosphate Metabolism,phoa,0
+1445,50_bin.1,6,Phosphate Metabolism,phoa,0
+1446,45_bin.16,6,Phosphate Metabolism,phoa,0
+1447,40_bin.5,6,Phosphate Metabolism,phoa,0
+1448,34_bin.28,6,Phosphate Metabolism,phoa,0
+1449,41_bin.38,7,Phosphate Metabolism,phoa,0
+1450,42_bin.21,1,Phosphate Metabolism,phod,1
+1451,31_bin.4,1,Phosphate Metabolism,phod,1
+1452,29_bin.35,1,Phosphate Metabolism,phod,1
+1453,46_bin.21,1,Phosphate Metabolism,phod,1
+1454,49_bin.10,1,Phosphate Metabolism,phod,1
+1455,24_bin.63,1,Phosphate Metabolism,phod,1
+1456,27_bin.15,1,Phosphate Metabolism,phod,1
+1457,28_bin.47,1,Phosphate Metabolism,phod,1
+1458,41_bin.32,1,Phosphate Metabolism,phod,1
+1459,37_bin.57,1,Phosphate Metabolism,phod,1
+1460,48_bin.50,1,Phosphate Metabolism,phod,1
+1461,32_bin.53,1,Phosphate Metabolism,phod,1
+1462,21_bin.47,1,Phosphate Metabolism,phod,1
+1463,43_bin.59,1,Phosphate Metabolism,phod,1
+1464,23_bin.50,1,Phosphate Metabolism,phod,1
+1465,39_bin.35,1,Phosphate Metabolism,phod,1
+1466,22_bin.14,1,Phosphate Metabolism,phod,1
+1467,36_bin.39,1,Phosphate Metabolism,phod,1
+1468,38_bin.9,1,Phosphate Metabolism,phod,1
+1469,26_bin.9,1,Phosphate Metabolism,phod,1
+1470,44_bin.50,1,Phosphate Metabolism,phod,1
+1471,34_bin.29,1,Phosphate Metabolism,phod,1
+1472,47_bin.30,1,Phosphate Metabolism,phod,1
+1473,31_bin.18,2,Phosphate Metabolism,phod,0
+1474,34_bin.2,2,Phosphate Metabolism,phod,0
+1475,28_bin.46,2,Phosphate Metabolism,phod,0
+1476,42_bin.6,2,Phosphate Metabolism,phod,0
+1477,24_bin.64,2,Phosphate Metabolism,phod,0
+1478,44_bin.41,2,Phosphate Metabolism,phod,0
+1479,43_bin.34,2,Phosphate Metabolism,phod,0
+1480,47_bin.61,2,Phosphate Metabolism,phod,0
+1481,48_bin.65,2,Phosphate Metabolism,phod,0
+1482,41_bin.35,2,Phosphate Metabolism,phod,0
+1483,21_bin.10,2,Phosphate Metabolism,phod,0
+1484,29_bin.53,2,Phosphate Metabolism,phod,0
+1485,36_bin.22,2,Phosphate Metabolism,phod,0
+1486,11_bin.53,2,Phosphate Metabolism,phod,0
+1487,39_bin.46,2,Phosphate Metabolism,phod,0
+1488,22_bin.5,2,Phosphate Metabolism,phod,0
+1489,44_bin.27,3,Phosphate Metabolism,phod,0
+1490,41_bin.37,3,Phosphate Metabolism,phod,0
+1491,29_bin.10,3,Phosphate Metabolism,phod,0
+1492,26_bin.35,3,Phosphate Metabolism,phod,0
+1493,46_bin.59,3,Phosphate Metabolism,phod,0
+1494,34_bin.7,3,Phosphate Metabolism,phod,0
+1495,36_bin.32,3,Phosphate Metabolism,phod,0
+1496,47_bin.64,3,Phosphate Metabolism,phod,0
+1497,49_bin.68,3,Phosphate Metabolism,phod,0
+1498,43_bin.28,3,Phosphate Metabolism,phod,0
+1499,29_bin.22,4,Phosphate Metabolism,phod,1
+1500,47_bin.13,4,Phosphate Metabolism,phod,1
+1501,24_bin.42,4,Phosphate Metabolism,phod,1
+1502,46_bin.73,4,Phosphate Metabolism,phod,1
+1503,49_bin.94,5,Phosphate Metabolism,phod,1
+1504,46_bin.56,5,Phosphate Metabolism,phod,1
+1505,43_bin.39,5,Phosphate Metabolism,phod,1
+1506,41_bin.76,5,Phosphate Metabolism,phod,0
+1507,25_bin.7,6,Phosphate Metabolism,phod,0
+1508,50_bin.1,6,Phosphate Metabolism,phod,0
+1509,45_bin.16,6,Phosphate Metabolism,phod,0
+1510,40_bin.5,6,Phosphate Metabolism,phod,0
+1511,34_bin.28,6,Phosphate Metabolism,phod,0
+1512,41_bin.38,7,Phosphate Metabolism,phod,0
+1513,42_bin.21,1,Phosphate Metabolism,phox,0
+1514,31_bin.4,1,Phosphate Metabolism,phox,0
+1515,29_bin.35,1,Phosphate Metabolism,phox,0
+1516,46_bin.21,1,Phosphate Metabolism,phox,0
+1517,49_bin.10,1,Phosphate Metabolism,phox,0
+1518,24_bin.63,1,Phosphate Metabolism,phox,0
+1519,27_bin.15,1,Phosphate Metabolism,phox,0
+1520,28_bin.47,1,Phosphate Metabolism,phox,0
+1521,41_bin.32,1,Phosphate Metabolism,phox,0
+1522,37_bin.57,1,Phosphate Metabolism,phox,0
+1523,48_bin.50,1,Phosphate Metabolism,phox,0
+1524,32_bin.53,1,Phosphate Metabolism,phox,0
+1525,21_bin.47,1,Phosphate Metabolism,phox,0
+1526,43_bin.59,1,Phosphate Metabolism,phox,0
+1527,23_bin.50,1,Phosphate Metabolism,phox,0
+1528,39_bin.35,1,Phosphate Metabolism,phox,0
+1529,22_bin.14,1,Phosphate Metabolism,phox,0
+1530,36_bin.39,1,Phosphate Metabolism,phox,0
+1531,38_bin.9,1,Phosphate Metabolism,phox,0
+1532,26_bin.9,1,Phosphate Metabolism,phox,0
+1533,44_bin.50,1,Phosphate Metabolism,phox,0
+1534,34_bin.29,1,Phosphate Metabolism,phox,0
+1535,47_bin.30,1,Phosphate Metabolism,phox,0
+1536,31_bin.18,2,Phosphate Metabolism,phox,0
+1537,34_bin.2,2,Phosphate Metabolism,phox,0
+1538,28_bin.46,2,Phosphate Metabolism,phox,0
+1539,42_bin.6,2,Phosphate Metabolism,phox,0
+1540,24_bin.64,2,Phosphate Metabolism,phox,0
+1541,44_bin.41,2,Phosphate Metabolism,phox,0
+1542,43_bin.34,2,Phosphate Metabolism,phox,0
+1543,47_bin.61,2,Phosphate Metabolism,phox,0
+1544,48_bin.65,2,Phosphate Metabolism,phox,0
+1545,41_bin.35,2,Phosphate Metabolism,phox,0
+1546,21_bin.10,2,Phosphate Metabolism,phox,0
+1547,29_bin.53,2,Phosphate Metabolism,phox,0
+1548,36_bin.22,2,Phosphate Metabolism,phox,0
+1549,11_bin.53,2,Phosphate Metabolism,phox,0
+1550,39_bin.46,2,Phosphate Metabolism,phox,0
+1551,22_bin.5,2,Phosphate Metabolism,phox,0
+1552,44_bin.27,3,Phosphate Metabolism,phox,0
+1553,41_bin.37,3,Phosphate Metabolism,phox,0
+1554,29_bin.10,3,Phosphate Metabolism,phox,0
+1555,26_bin.35,3,Phosphate Metabolism,phox,0
+1556,46_bin.59,3,Phosphate Metabolism,phox,0
+1557,34_bin.7,3,Phosphate Metabolism,phox,0
+1558,36_bin.32,3,Phosphate Metabolism,phox,0
+1559,47_bin.64,3,Phosphate Metabolism,phox,0
+1560,49_bin.68,3,Phosphate Metabolism,phox,0
+1561,43_bin.28,3,Phosphate Metabolism,phox,0
+1562,29_bin.22,4,Phosphate Metabolism,phox,0
+1563,47_bin.13,4,Phosphate Metabolism,phox,0
+1564,24_bin.42,4,Phosphate Metabolism,phox,0
+1565,46_bin.73,4,Phosphate Metabolism,phox,0
+1566,49_bin.94,5,Phosphate Metabolism,phox,0
+1567,46_bin.56,5,Phosphate Metabolism,phox,0
+1568,43_bin.39,5,Phosphate Metabolism,phox,0
+1569,41_bin.76,5,Phosphate Metabolism,phox,0
+1570,25_bin.7,6,Phosphate Metabolism,phox,0
+1571,50_bin.1,6,Phosphate Metabolism,phox,0
+1572,45_bin.16,6,Phosphate Metabolism,phox,0
+1573,40_bin.5,6,Phosphate Metabolism,phox,0
+1574,34_bin.28,6,Phosphate Metabolism,phox,0
+1575,41_bin.38,7,Phosphate Metabolism,phox,0
+568,42_bin.21,1,Trace gas metabolism,pmoa,0
+569,31_bin.4,1,Trace gas metabolism,pmoa,0
+570,29_bin.35,1,Trace gas metabolism,pmoa,0
+571,46_bin.21,1,Trace gas metabolism,pmoa,0
+572,49_bin.10,1,Trace gas metabolism,pmoa,0
+573,24_bin.63,1,Trace gas metabolism,pmoa,0
+574,27_bin.15,1,Trace gas metabolism,pmoa,0
+575,28_bin.47,1,Trace gas metabolism,pmoa,0
+576,41_bin.32,1,Trace gas metabolism,pmoa,0
+577,37_bin.57,1,Trace gas metabolism,pmoa,0
+578,48_bin.50,1,Trace gas metabolism,pmoa,0
+579,32_bin.53,1,Trace gas metabolism,pmoa,0
+580,21_bin.47,1,Trace gas metabolism,pmoa,0
+581,43_bin.59,1,Trace gas metabolism,pmoa,0
+582,23_bin.50,1,Trace gas metabolism,pmoa,0
+583,39_bin.35,1,Trace gas metabolism,pmoa,0
+584,22_bin.14,1,Trace gas metabolism,pmoa,0
+585,36_bin.39,1,Trace gas metabolism,pmoa,0
+586,38_bin.9,1,Trace gas metabolism,pmoa,0
+587,26_bin.9,1,Trace gas metabolism,pmoa,0
+588,44_bin.50,1,Trace gas metabolism,pmoa,0
+589,34_bin.29,1,Trace gas metabolism,pmoa,0
+590,47_bin.30,1,Trace gas metabolism,pmoa,0
+591,31_bin.18,2,Trace gas metabolism,pmoa,0
+592,34_bin.2,2,Trace gas metabolism,pmoa,0
+593,28_bin.46,2,Trace gas metabolism,pmoa,0
+594,42_bin.6,2,Trace gas metabolism,pmoa,0
+595,24_bin.64,2,Trace gas metabolism,pmoa,0
+596,44_bin.41,2,Trace gas metabolism,pmoa,0
+597,43_bin.34,2,Trace gas metabolism,pmoa,0
+598,47_bin.61,2,Trace gas metabolism,pmoa,0
+599,48_bin.65,2,Trace gas metabolism,pmoa,0
+600,41_bin.35,2,Trace gas metabolism,pmoa,0
+601,21_bin.10,2,Trace gas metabolism,pmoa,0
+602,29_bin.53,2,Trace gas metabolism,pmoa,0
+603,36_bin.22,2,Trace gas metabolism,pmoa,0
+604,11_bin.53,2,Trace gas metabolism,pmoa,0
+605,39_bin.46,2,Trace gas metabolism,pmoa,0
+606,22_bin.5,2,Trace gas metabolism,pmoa,0
+607,44_bin.27,3,Trace gas metabolism,pmoa,0
+608,41_bin.37,3,Trace gas metabolism,pmoa,0
+609,29_bin.10,3,Trace gas metabolism,pmoa,0
+610,26_bin.35,3,Trace gas metabolism,pmoa,0
+611,46_bin.59,3,Trace gas metabolism,pmoa,0
+612,34_bin.7,3,Trace gas metabolism,pmoa,0
+613,36_bin.32,3,Trace gas metabolism,pmoa,0
+614,47_bin.64,3,Trace gas metabolism,pmoa,0
+615,49_bin.68,3,Trace gas metabolism,pmoa,0
+616,43_bin.28,3,Trace gas metabolism,pmoa,0
+617,29_bin.22,4,Trace gas metabolism,pmoa,0
+618,47_bin.13,4,Trace gas metabolism,pmoa,0
+619,24_bin.42,4,Trace gas metabolism,pmoa,0
+620,46_bin.73,4,Trace gas metabolism,pmoa,0
+621,49_bin.94,5,Trace gas metabolism,pmoa,0
+622,46_bin.56,5,Trace gas metabolism,pmoa,0
+623,43_bin.39,5,Trace gas metabolism,pmoa,0
+624,41_bin.76,5,Trace gas metabolism,pmoa,0
+625,25_bin.7,6,Trace gas metabolism,pmoa,0
+626,50_bin.1,6,Trace gas metabolism,pmoa,0
+627,45_bin.16,6,Trace gas metabolism,pmoa,0
+628,40_bin.5,6,Trace gas metabolism,pmoa,0
+629,34_bin.28,6,Trace gas metabolism,pmoa,0
+630,41_bin.38,7,Trace gas metabolism,pmoa,0
+2017,42_bin.21,1,Phosphonate metabolism,pph,0
+2018,31_bin.4,1,Phosphonate metabolism,pph,0
+2019,29_bin.35,1,Phosphonate metabolism,pph,0
+2020,46_bin.21,1,Phosphonate metabolism,pph,0
+2021,49_bin.10,1,Phosphonate metabolism,pph,0
+2022,24_bin.63,1,Phosphonate metabolism,pph,0
+2023,27_bin.15,1,Phosphonate metabolism,pph,0
+2024,28_bin.47,1,Phosphonate metabolism,pph,0
+2025,41_bin.32,1,Phosphonate metabolism,pph,0
+2026,37_bin.57,1,Phosphonate metabolism,pph,0
+2027,48_bin.50,1,Phosphonate metabolism,pph,0
+2028,32_bin.53,1,Phosphonate metabolism,pph,0
+2029,21_bin.47,1,Phosphonate metabolism,pph,0
+2030,43_bin.59,1,Phosphonate metabolism,pph,0
+2031,23_bin.50,1,Phosphonate metabolism,pph,0
+2032,39_bin.35,1,Phosphonate metabolism,pph,0
+2033,22_bin.14,1,Phosphonate metabolism,pph,0
+2034,36_bin.39,1,Phosphonate metabolism,pph,0
+2035,38_bin.9,1,Phosphonate metabolism,pph,0
+2036,26_bin.9,1,Phosphonate metabolism,pph,0
+2037,44_bin.50,1,Phosphonate metabolism,pph,0
+2038,34_bin.29,1,Phosphonate metabolism,pph,0
+2039,47_bin.30,1,Phosphonate metabolism,pph,0
+2040,31_bin.18,2,Phosphonate metabolism,pph,0
+2041,34_bin.2,2,Phosphonate metabolism,pph,0
+2042,28_bin.46,2,Phosphonate metabolism,pph,0
+2043,42_bin.6,2,Phosphonate metabolism,pph,0
+2044,24_bin.64,2,Phosphonate metabolism,pph,0
+2045,44_bin.41,2,Phosphonate metabolism,pph,0
+2046,43_bin.34,2,Phosphonate metabolism,pph,0
+2047,47_bin.61,2,Phosphonate metabolism,pph,0
+2048,48_bin.65,2,Phosphonate metabolism,pph,0
+2049,41_bin.35,2,Phosphonate metabolism,pph,0
+2050,21_bin.10,2,Phosphonate metabolism,pph,0
+2051,29_bin.53,2,Phosphonate metabolism,pph,0
+2052,36_bin.22,2,Phosphonate metabolism,pph,0
+2053,11_bin.53,2,Phosphonate metabolism,pph,0
+2054,39_bin.46,2,Phosphonate metabolism,pph,0
+2055,22_bin.5,2,Phosphonate metabolism,pph,0
+2056,44_bin.27,3,Phosphonate metabolism,pph,0
+2057,41_bin.37,3,Phosphonate metabolism,pph,0
+2058,29_bin.10,3,Phosphonate metabolism,pph,0
+2059,26_bin.35,3,Phosphonate metabolism,pph,0
+2060,46_bin.59,3,Phosphonate metabolism,pph,0
+2061,34_bin.7,3,Phosphonate metabolism,pph,0
+2062,36_bin.32,3,Phosphonate metabolism,pph,0
+2063,47_bin.64,3,Phosphonate metabolism,pph,0
+2064,49_bin.68,3,Phosphonate metabolism,pph,0
+2065,43_bin.28,3,Phosphonate metabolism,pph,0
+2066,29_bin.22,4,Phosphonate metabolism,pph,0
+2067,47_bin.13,4,Phosphonate metabolism,pph,0
+2068,24_bin.42,4,Phosphonate metabolism,pph,0
+2069,46_bin.73,4,Phosphonate metabolism,pph,0
+2070,49_bin.94,5,Phosphonate metabolism,pph,0
+2071,46_bin.56,5,Phosphonate metabolism,pph,0
+2072,43_bin.39,5,Phosphonate metabolism,pph,0
+2073,41_bin.76,5,Phosphonate metabolism,pph,0
+2074,25_bin.7,6,Phosphonate metabolism,pph,0
+2075,50_bin.1,6,Phosphonate metabolism,pph,0
+2076,45_bin.16,6,Phosphonate metabolism,pph,0
+2077,40_bin.5,6,Phosphonate metabolism,pph,0
+2078,34_bin.28,6,Phosphonate metabolism,pph,0
+2079,41_bin.38,7,Phosphonate metabolism,pph,0
+316,42_bin.21,1,Carbon fixation,rbcl,0
+317,31_bin.4,1,Carbon fixation,rbcl,0
+318,29_bin.35,1,Carbon fixation,rbcl,0
+319,46_bin.21,1,Carbon fixation,rbcl,0
+320,49_bin.10,1,Carbon fixation,rbcl,0
+321,24_bin.63,1,Carbon fixation,rbcl,0
+322,27_bin.15,1,Carbon fixation,rbcl,0
+323,28_bin.47,1,Carbon fixation,rbcl,0
+324,41_bin.32,1,Carbon fixation,rbcl,0
+325,37_bin.57,1,Carbon fixation,rbcl,0
+326,48_bin.50,1,Carbon fixation,rbcl,0
+327,32_bin.53,1,Carbon fixation,rbcl,0
+328,21_bin.47,1,Carbon fixation,rbcl,0
+329,43_bin.59,1,Carbon fixation,rbcl,0
+330,23_bin.50,1,Carbon fixation,rbcl,0
+331,39_bin.35,1,Carbon fixation,rbcl,0
+332,22_bin.14,1,Carbon fixation,rbcl,0
+333,36_bin.39,1,Carbon fixation,rbcl,0
+334,38_bin.9,1,Carbon fixation,rbcl,0
+335,26_bin.9,1,Carbon fixation,rbcl,0
+336,44_bin.50,1,Carbon fixation,rbcl,0
+337,34_bin.29,1,Carbon fixation,rbcl,0
+338,47_bin.30,1,Carbon fixation,rbcl,0
+339,31_bin.18,2,Carbon fixation,rbcl,0
+340,34_bin.2,2,Carbon fixation,rbcl,0
+341,28_bin.46,2,Carbon fixation,rbcl,0
+342,42_bin.6,2,Carbon fixation,rbcl,0
+343,24_bin.64,2,Carbon fixation,rbcl,0
+344,44_bin.41,2,Carbon fixation,rbcl,0
+345,43_bin.34,2,Carbon fixation,rbcl,0
+346,47_bin.61,2,Carbon fixation,rbcl,0
+347,48_bin.65,2,Carbon fixation,rbcl,0
+348,41_bin.35,2,Carbon fixation,rbcl,0
+349,21_bin.10,2,Carbon fixation,rbcl,0
+350,29_bin.53,2,Carbon fixation,rbcl,0
+351,36_bin.22,2,Carbon fixation,rbcl,0
+352,11_bin.53,2,Carbon fixation,rbcl,0
+353,39_bin.46,2,Carbon fixation,rbcl,0
+354,22_bin.5,2,Carbon fixation,rbcl,0
+355,44_bin.27,3,Carbon fixation,rbcl,0
+356,41_bin.37,3,Carbon fixation,rbcl,0
+357,29_bin.10,3,Carbon fixation,rbcl,0
+358,26_bin.35,3,Carbon fixation,rbcl,0
+359,46_bin.59,3,Carbon fixation,rbcl,0
+360,34_bin.7,3,Carbon fixation,rbcl,0
+361,36_bin.32,3,Carbon fixation,rbcl,0
+362,47_bin.64,3,Carbon fixation,rbcl,0
+363,49_bin.68,3,Carbon fixation,rbcl,0
+364,43_bin.28,3,Carbon fixation,rbcl,0
+365,29_bin.22,4,Carbon fixation,rbcl,0
+366,47_bin.13,4,Carbon fixation,rbcl,0
+367,24_bin.42,4,Carbon fixation,rbcl,0
+368,46_bin.73,4,Carbon fixation,rbcl,0
+369,49_bin.94,5,Carbon fixation,rbcl,0
+370,46_bin.56,5,Carbon fixation,rbcl,0
+371,43_bin.39,5,Carbon fixation,rbcl,0
+372,41_bin.76,5,Carbon fixation,rbcl,0
+373,25_bin.7,6,Carbon fixation,rbcl,0
+374,50_bin.1,6,Carbon fixation,rbcl,0
+375,45_bin.16,6,Carbon fixation,rbcl,0
+376,40_bin.5,6,Carbon fixation,rbcl,0
+377,34_bin.28,6,Carbon fixation,rbcl,0
+378,41_bin.38,7,Carbon fixation,rbcl,0
+694,42_bin.21,1,Alternative e acceptor,rdha,0
+695,31_bin.4,1,Alternative e acceptor,rdha,0
+696,29_bin.35,1,Alternative e acceptor,rdha,0
+697,46_bin.21,1,Alternative e acceptor,rdha,0
+698,49_bin.10,1,Alternative e acceptor,rdha,0
+699,24_bin.63,1,Alternative e acceptor,rdha,0
+700,27_bin.15,1,Alternative e acceptor,rdha,0
+701,28_bin.47,1,Alternative e acceptor,rdha,0
+702,41_bin.32,1,Alternative e acceptor,rdha,0
+703,37_bin.57,1,Alternative e acceptor,rdha,0
+704,48_bin.50,1,Alternative e acceptor,rdha,0
+705,32_bin.53,1,Alternative e acceptor,rdha,0
+706,21_bin.47,1,Alternative e acceptor,rdha,0
+707,43_bin.59,1,Alternative e acceptor,rdha,0
+708,23_bin.50,1,Alternative e acceptor,rdha,0
+709,39_bin.35,1,Alternative e acceptor,rdha,0
+710,22_bin.14,1,Alternative e acceptor,rdha,0
+711,36_bin.39,1,Alternative e acceptor,rdha,0
+712,38_bin.9,1,Alternative e acceptor,rdha,0
+713,26_bin.9,1,Alternative e acceptor,rdha,0
+714,44_bin.50,1,Alternative e acceptor,rdha,0
+715,34_bin.29,1,Alternative e acceptor,rdha,0
+716,47_bin.30,1,Alternative e acceptor,rdha,0
+717,31_bin.18,2,Alternative e acceptor,rdha,0
+718,34_bin.2,2,Alternative e acceptor,rdha,0
+719,28_bin.46,2,Alternative e acceptor,rdha,0
+720,42_bin.6,2,Alternative e acceptor,rdha,0
+721,24_bin.64,2,Alternative e acceptor,rdha,0
+722,44_bin.41,2,Alternative e acceptor,rdha,0
+723,43_bin.34,2,Alternative e acceptor,rdha,0
+724,47_bin.61,2,Alternative e acceptor,rdha,0
+725,48_bin.65,2,Alternative e acceptor,rdha,0
+726,41_bin.35,2,Alternative e acceptor,rdha,0
+727,21_bin.10,2,Alternative e acceptor,rdha,0
+728,29_bin.53,2,Alternative e acceptor,rdha,0
+729,36_bin.22,2,Alternative e acceptor,rdha,0
+730,11_bin.53,2,Alternative e acceptor,rdha,0
+731,39_bin.46,2,Alternative e acceptor,rdha,0
+732,22_bin.5,2,Alternative e acceptor,rdha,0
+733,44_bin.27,3,Alternative e acceptor,rdha,0
+734,41_bin.37,3,Alternative e acceptor,rdha,0
+735,29_bin.10,3,Alternative e acceptor,rdha,0
+736,26_bin.35,3,Alternative e acceptor,rdha,0
+737,46_bin.59,3,Alternative e acceptor,rdha,0
+738,34_bin.7,3,Alternative e acceptor,rdha,0
+739,36_bin.32,3,Alternative e acceptor,rdha,0
+740,47_bin.64,3,Alternative e acceptor,rdha,0
+741,49_bin.68,3,Alternative e acceptor,rdha,0
+742,43_bin.28,3,Alternative e acceptor,rdha,0
+743,29_bin.22,4,Alternative e acceptor,rdha,0
+744,47_bin.13,4,Alternative e acceptor,rdha,0
+745,24_bin.42,4,Alternative e acceptor,rdha,0
+746,46_bin.73,4,Alternative e acceptor,rdha,0
+747,49_bin.94,5,Alternative e acceptor,rdha,0
+748,46_bin.56,5,Alternative e acceptor,rdha,0
+749,43_bin.39,5,Alternative e acceptor,rdha,0
+750,41_bin.76,5,Alternative e acceptor,rdha,0
+751,25_bin.7,6,Alternative e acceptor,rdha,0
+752,50_bin.1,6,Alternative e acceptor,rdha,0
+753,45_bin.16,6,Alternative e acceptor,rdha,0
+754,40_bin.5,6,Alternative e acceptor,rdha,0
+755,34_bin.28,6,Alternative e acceptor,rdha,0
+756,41_bin.38,7,Alternative e acceptor,rdha,0
+379,42_bin.21,1,Respiration,sdha,1
+380,31_bin.4,1,Respiration,sdha,1
+381,29_bin.35,1,Respiration,sdha,1
+382,46_bin.21,1,Respiration,sdha,1
+383,49_bin.10,1,Respiration,sdha,1
+384,24_bin.63,1,Respiration,sdha,1
+385,27_bin.15,1,Respiration,sdha,1
+386,28_bin.47,1,Respiration,sdha,1
+387,41_bin.32,1,Respiration,sdha,1
+388,37_bin.57,1,Respiration,sdha,1
+389,48_bin.50,1,Respiration,sdha,1
+390,32_bin.53,1,Respiration,sdha,1
+391,21_bin.47,1,Respiration,sdha,1
+392,43_bin.59,1,Respiration,sdha,1
+393,23_bin.50,1,Respiration,sdha,1
+394,39_bin.35,1,Respiration,sdha,1
+395,22_bin.14,1,Respiration,sdha,1
+396,36_bin.39,1,Respiration,sdha,1
+397,38_bin.9,1,Respiration,sdha,1
+398,26_bin.9,1,Respiration,sdha,1
+399,44_bin.50,1,Respiration,sdha,1
+400,34_bin.29,1,Respiration,sdha,1
+401,47_bin.30,1,Respiration,sdha,1
+402,31_bin.18,2,Respiration,sdha,1
+403,34_bin.2,2,Respiration,sdha,1
+404,28_bin.46,2,Respiration,sdha,1
+405,42_bin.6,2,Respiration,sdha,1
+406,24_bin.64,2,Respiration,sdha,1
+407,44_bin.41,2,Respiration,sdha,1
+408,43_bin.34,2,Respiration,sdha,1
+409,47_bin.61,2,Respiration,sdha,1
+410,48_bin.65,2,Respiration,sdha,1
+411,41_bin.35,2,Respiration,sdha,0
+412,21_bin.10,2,Respiration,sdha,1
+413,29_bin.53,2,Respiration,sdha,1
+414,36_bin.22,2,Respiration,sdha,1
+415,11_bin.53,2,Respiration,sdha,1
+416,39_bin.46,2,Respiration,sdha,1
+417,22_bin.5,2,Respiration,sdha,0
+418,44_bin.27,3,Respiration,sdha,1
+419,41_bin.37,3,Respiration,sdha,1
+420,29_bin.10,3,Respiration,sdha,1
+421,26_bin.35,3,Respiration,sdha,1
+422,46_bin.59,3,Respiration,sdha,1
+423,34_bin.7,3,Respiration,sdha,1
+424,36_bin.32,3,Respiration,sdha,1
+425,47_bin.64,3,Respiration,sdha,1
+426,49_bin.68,3,Respiration,sdha,1
+427,43_bin.28,3,Respiration,sdha,0
+428,29_bin.22,4,Respiration,sdha,1
+429,47_bin.13,4,Respiration,sdha,1
+430,24_bin.42,4,Respiration,sdha,1
+431,46_bin.73,4,Respiration,sdha,1
+432,49_bin.94,5,Respiration,sdha,1
+433,46_bin.56,5,Respiration,sdha,1
+434,43_bin.39,5,Respiration,sdha,1
+435,41_bin.76,5,Respiration,sdha,1
+436,25_bin.7,6,Respiration,sdha,0
+437,50_bin.1,6,Respiration,sdha,1
+438,45_bin.16,6,Respiration,sdha,1
+439,40_bin.5,6,Respiration,sdha,0
+440,34_bin.28,6,Respiration,sdha,1
+441,41_bin.38,7,Respiration,sdha,1
+64,42_bin.21,1,Sulfur cycle,soxb,0
+65,31_bin.4,1,Sulfur cycle,soxb,0
+66,29_bin.35,1,Sulfur cycle,soxb,0
+67,46_bin.21,1,Sulfur cycle,soxb,0
+68,49_bin.10,1,Sulfur cycle,soxb,0
+69,24_bin.63,1,Sulfur cycle,soxb,0
+70,27_bin.15,1,Sulfur cycle,soxb,0
+71,28_bin.47,1,Sulfur cycle,soxb,0
+72,41_bin.32,1,Sulfur cycle,soxb,0
+73,37_bin.57,1,Sulfur cycle,soxb,0
+74,48_bin.50,1,Sulfur cycle,soxb,0
+75,32_bin.53,1,Sulfur cycle,soxb,0
+76,21_bin.47,1,Sulfur cycle,soxb,0
+77,43_bin.59,1,Sulfur cycle,soxb,0
+78,23_bin.50,1,Sulfur cycle,soxb,0
+79,39_bin.35,1,Sulfur cycle,soxb,0
+80,22_bin.14,1,Sulfur cycle,soxb,0
+81,36_bin.39,1,Sulfur cycle,soxb,0
+82,38_bin.9,1,Sulfur cycle,soxb,0
+83,26_bin.9,1,Sulfur cycle,soxb,0
+84,44_bin.50,1,Sulfur cycle,soxb,0
+85,34_bin.29,1,Sulfur cycle,soxb,0
+86,47_bin.30,1,Sulfur cycle,soxb,0
+87,31_bin.18,2,Sulfur cycle,soxb,0
+88,34_bin.2,2,Sulfur cycle,soxb,0
+89,28_bin.46,2,Sulfur cycle,soxb,0
+90,42_bin.6,2,Sulfur cycle,soxb,0
+91,24_bin.64,2,Sulfur cycle,soxb,0
+92,44_bin.41,2,Sulfur cycle,soxb,0
+93,43_bin.34,2,Sulfur cycle,soxb,0
+94,47_bin.61,2,Sulfur cycle,soxb,0
+95,48_bin.65,2,Sulfur cycle,soxb,0
+96,41_bin.35,2,Sulfur cycle,soxb,0
+97,21_bin.10,2,Sulfur cycle,soxb,0
+98,29_bin.53,2,Sulfur cycle,soxb,0
+99,36_bin.22,2,Sulfur cycle,soxb,0
+100,11_bin.53,2,Sulfur cycle,soxb,0
+101,39_bin.46,2,Sulfur cycle,soxb,0
+102,22_bin.5,2,Sulfur cycle,soxb,0
+103,44_bin.27,3,Sulfur cycle,soxb,0
+104,41_bin.37,3,Sulfur cycle,soxb,0
+105,29_bin.10,3,Sulfur cycle,soxb,0
+106,26_bin.35,3,Sulfur cycle,soxb,0
+107,46_bin.59,3,Sulfur cycle,soxb,0
+108,34_bin.7,3,Sulfur cycle,soxb,0
+109,36_bin.32,3,Sulfur cycle,soxb,0
+110,47_bin.64,3,Sulfur cycle,soxb,0
+111,49_bin.68,3,Sulfur cycle,soxb,0
+112,43_bin.28,3,Sulfur cycle,soxb,0
+113,29_bin.22,4,Sulfur cycle,soxb,0
+114,47_bin.13,4,Sulfur cycle,soxb,0
+115,24_bin.42,4,Sulfur cycle,soxb,0
+116,46_bin.73,4,Sulfur cycle,soxb,0
+117,49_bin.94,5,Sulfur cycle,soxb,0
+118,46_bin.56,5,Sulfur cycle,soxb,0
+119,43_bin.39,5,Sulfur cycle,soxb,0
+120,41_bin.76,5,Sulfur cycle,soxb,0
+121,25_bin.7,6,Sulfur cycle,soxb,0
+122,50_bin.1,6,Sulfur cycle,soxb,0
+123,45_bin.16,6,Sulfur cycle,soxb,0
+124,40_bin.5,6,Sulfur cycle,soxb,0
+125,34_bin.28,6,Sulfur cycle,soxb,0
+126,41_bin.38,7,Sulfur cycle,soxb,0
+127,42_bin.21,1,Sulfur cycle,sqr,0
+128,31_bin.4,1,Sulfur cycle,sqr,0
+129,29_bin.35,1,Sulfur cycle,sqr,0
+130,46_bin.21,1,Sulfur cycle,sqr,0
+131,49_bin.10,1,Sulfur cycle,sqr,0
+132,24_bin.63,1,Sulfur cycle,sqr,0
+133,27_bin.15,1,Sulfur cycle,sqr,0
+134,28_bin.47,1,Sulfur cycle,sqr,0
+135,41_bin.32,1,Sulfur cycle,sqr,0
+136,37_bin.57,1,Sulfur cycle,sqr,0
+137,48_bin.50,1,Sulfur cycle,sqr,0
+138,32_bin.53,1,Sulfur cycle,sqr,0
+139,21_bin.47,1,Sulfur cycle,sqr,0
+140,43_bin.59,1,Sulfur cycle,sqr,0
+141,23_bin.50,1,Sulfur cycle,sqr,0
+142,39_bin.35,1,Sulfur cycle,sqr,0
+143,22_bin.14,1,Sulfur cycle,sqr,0
+144,36_bin.39,1,Sulfur cycle,sqr,0
+145,38_bin.9,1,Sulfur cycle,sqr,0
+146,26_bin.9,1,Sulfur cycle,sqr,0
+147,44_bin.50,1,Sulfur cycle,sqr,0
+148,34_bin.29,1,Sulfur cycle,sqr,0
+149,47_bin.30,1,Sulfur cycle,sqr,0
+150,31_bin.18,2,Sulfur cycle,sqr,0
+151,34_bin.2,2,Sulfur cycle,sqr,0
+152,28_bin.46,2,Sulfur cycle,sqr,0
+153,42_bin.6,2,Sulfur cycle,sqr,0
+154,24_bin.64,2,Sulfur cycle,sqr,0
+155,44_bin.41,2,Sulfur cycle,sqr,0
+156,43_bin.34,2,Sulfur cycle,sqr,0
+157,47_bin.61,2,Sulfur cycle,sqr,0
+158,48_bin.65,2,Sulfur cycle,sqr,0
+159,41_bin.35,2,Sulfur cycle,sqr,0
+160,21_bin.10,2,Sulfur cycle,sqr,0
+161,29_bin.53,2,Sulfur cycle,sqr,0
+162,36_bin.22,2,Sulfur cycle,sqr,0
+163,11_bin.53,2,Sulfur cycle,sqr,0
+164,39_bin.46,2,Sulfur cycle,sqr,0
+165,22_bin.5,2,Sulfur cycle,sqr,0
+166,44_bin.27,3,Sulfur cycle,sqr,0
+167,41_bin.37,3,Sulfur cycle,sqr,0
+168,29_bin.10,3,Sulfur cycle,sqr,0
+169,26_bin.35,3,Sulfur cycle,sqr,0
+170,46_bin.59,3,Sulfur cycle,sqr,0
+171,34_bin.7,3,Sulfur cycle,sqr,0
+172,36_bin.32,3,Sulfur cycle,sqr,0
+173,47_bin.64,3,Sulfur cycle,sqr,0
+174,49_bin.68,3,Sulfur cycle,sqr,0
+175,43_bin.28,3,Sulfur cycle,sqr,0
+176,29_bin.22,4,Sulfur cycle,sqr,0
+177,47_bin.13,4,Sulfur cycle,sqr,0
+178,24_bin.42,4,Sulfur cycle,sqr,0
+179,46_bin.73,4,Sulfur cycle,sqr,0
+180,49_bin.94,5,Sulfur cycle,sqr,0
+181,46_bin.56,5,Sulfur cycle,sqr,1
+182,43_bin.39,5,Sulfur cycle,sqr,0
+183,41_bin.76,5,Sulfur cycle,sqr,0
+184,25_bin.7,6,Sulfur cycle,sqr,0
+185,50_bin.1,6,Sulfur cycle,sqr,0
+186,45_bin.16,6,Sulfur cycle,sqr,0
+187,40_bin.5,6,Sulfur cycle,sqr,0
+188,34_bin.28,6,Sulfur cycle,sqr,0
+189,41_bin.38,7,Sulfur cycle,sqr,0

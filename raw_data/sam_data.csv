@@ -1,0 +1,50 @@
+﻿Sample,Day,Treatment
+Sample 1,9,AB
+Sample 2,9,AB
+Sample 3,9,AB
+Sample 4,9,AF
+Sample 5,9,AF
+Sample 6,9,AF
+Sample 7,9,AB + AF
+Sample 8,9,AB + AF
+Sample 9,9,AB + AF
+Sample 10,9,PC
+Sample 11,9,PC
+Sample 12,9,PC
+Sample 13,9,NC
+Sample 14,9,NC
+Sample 15,9,NC
+Sample 16,9,AB
+Sample 17,9,AF
+Sample 18,9,AB + AF
+Sample 19,9,PC
+Sample 20,9,NC
+Sample 21,15,AB
+Sample 22,15,AF
+Sample 23,15,AB + AF
+Sample 24,15,PC
+Sample 25,15,NC
+Sample 26,21,AB
+Sample 27,21,AF
+Sample 28,21,AB + AF
+Sample 29,21,PC
+Sample 30,21,NC
+Sample 31,27,AB
+Sample 32,27,AF
+Sample 34,27,PC
+Sample 35,27,NC
+Sample 36,33,AB
+Sample 37,33,AF
+Sample 38,33,AB + AF
+Sample 39,33,PC
+Sample 40,33,NC
+Sample 41,42,AB
+Sample 42,42,AF
+Sample 43,42,AB + AF
+Sample 44,42,PC
+Sample 45,42,NC
+Sample 46,51,AB
+Sample 47,51,AF
+Sample 48,51,AB + AF
+Sample 49,51,PC
+Sample 50,51,NC
